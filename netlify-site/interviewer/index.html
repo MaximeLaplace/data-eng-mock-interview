@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interviewer Script — Secret Detection Analytics</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        h1 { color: #0d1117; border-bottom: 2px solid #e1e4e8; padding-bottom: 10px; }
+        h2 { color: #24292f; margin-top: 2em; border-bottom: 1px solid #e1e4e8; padding-bottom: 6px; }
+        h3 { color: #333; }
+        h4 { color: #555; }
+        table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px; }
+        th, td { border: 1px solid #d0d7de; padding: 8px 12px; text-align: left; }
+        th { background: #f0f3f6; font-weight: 600; }
+        tr:nth-child(even) { background: #f6f8fa; }
+        code { background: #eff1f3; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+        pre { background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 6px; overflow-x: auto; }
+        pre code { background: none; color: inherit; padding: 0; }
+        blockquote {
+            border-left: 4px solid #3b82f6;
+            margin: 1em 0;
+            padding: 12px 20px;
+            background: #eff6ff;
+            color: #1e3a5f;
+        }
+        blockquote p { margin: 0.5em 0; }
+        hr { border: none; border-top: 2px solid #e1e4e8; margin: 2em 0; }
+        strong { color: #0d1117; }
+        a { color: #1565c0; }
+        ul, ol { padding-left: 24px; }
+        li { margin: 4px 0; }
+        .banner {
+            background: #dc2626;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">INTERVIEWER ONLY — Do not share this page with the candidate</div>
+    <div id="content"></div>
+    <script>
+    const markdown = `
+# GitGuardian — Analytics Engineer Interview Script
+
+## Interview: "Python proficiency, SQL proficiency and data analytics skills"
+
+**Duration:** ~90 min
+**Tools:** Claude Code, terminal
+**Data:** Hosted on this same site (root page)
+
+---
+
+## PART 0 — INTERVIEWER BRIEF
+
+### Setup before the interview
+
+1. Verify the 3 CSV files are accessible from the root page: \`/raw_organizations.csv\`, \`/raw_scan_events.csv\`, \`/raw_incidents.csv\`
+2. Have a blank terminal ready for her to use Claude Code
+
+### What you're evaluating
+
+| Skill area | Weight | What "good" looks like |
+|---|---|---|
+| **Clarification & scoping** | 15% | Asks questions, checks the data page, proposes an approach before coding |
+| **Python** | 20% | Fetches CSVs, cleans data, loads into a DB — clean and practical |
+| **SQL** | 30% | CTEs, window functions, correct aggregation, NULL handling, readable |
+| **Analytics thinking** | 20% | Picks meaningful metrics, thinks in layers, mentions quality/testing |
+| **Claude Code usage** | 10% | Drives the logic, uses Claude for boilerplate, reviews and iterates |
+| **Communication** | 5% | Narrates decisions, flags trade-offs, explains without being asked |
+
+### Your role
+
+- Deliver the prompt casually (2 sentences)
+- Answer her questions using the guide below — be helpful but don't steer
+- Let her drive the entire session
+- Take notes on the scorecard
+- Nudge only if stuck >5 min on something
+
+---
+
+## PART 1 — INTRO (2 min)
+
+### INTERVIEWER SAYS:
+
+> "Hey! So this round is about Python, SQL, and analytics. You'll use Claude Code — treat it like your normal workflow. I'll give you a scenario, you build something, and we'll look at the results together at the end. Ready?"
+
+---
+
+## PART 2 — THE PROMPT
+
+### INTERVIEWER SAYS:
+
+> "So we have some raw data from our secret detection platform — scans, incidents, customer info. I've put it up on a website. Have a look and build me something useful — I want to understand how our customers are doing with secret detection. What's working, what's not, where should we focus."
+
+Give her the root URL of this site. That's it. She drives from here.
+
+---
+
+## PART 3 — CLARIFICATION PHASE (5-10 min)
+
+**If she starts coding immediately without looking at the data page or asking anything: yellow flag.** Wait 30 seconds, then say: *"Any questions before you dive in?"*
+
+### Questions she should ask (and your answers)
+
+| Her question | Your answer | Why it matters |
+|---|---|---|
+| "Can I look at the data page first?" | "Of course, go ahead." | Shows she explores before coding |
+| "Who's the audience for this?" | "Think VP of Product or Head of Security — they want to know which customers need help, which detectors are most valuable, how fast incidents get resolved." | Shows stakeholder awareness |
+| "Should I build a full dbt project or just SQL queries?" | "Whatever lets you show your thinking. I care about the approach and results, not the tooling." | Tests pragmatism |
+| "What database should I use?" | "Your choice — whatever you can query with SQL." | Hoping for DuckDB or SQLite |
+| "How much time do I have?" | "About an hour for the build, then we'll review together." | |
+| "Is the data clean?" | "It's raw data — you tell me." *(smile)* | She should discover issues herself |
+| "What metrics matter most to you?" | "That's part of the exercise — what would *you* track?" | Tests analytics intuition |
+| "Should I handle all three tables or focus on one?" | "I'd like to see them connected — that's where the interesting stuff is." | Pushes toward JOINs and modeling |
+
+### What you want to hear her say
+
+- "Let me first look at the webpage to understand the schema"
+- "I'll fetch the CSVs, load them into DuckDB, then explore the data"
+- "I'll start with some data profiling to see what's in there"
+- "I'll build a clean staging layer, then write analysis queries on top"
+- "For the business side, I'm thinking MTTR, incident severity breakdown by plan type, detector effectiveness..."
+
+---
+
+## PART 4 — WORK SESSION (55-65 min)
+
+### What she should naturally build
+
+No task list given — but a strong candidate will organically do:
+
+**Step 1 — Fetch & load (~10 min)**
+- Read the web page, understand the schema
+- Use Python (requests/urllib) to download the 3 CSVs
+- Load them into DuckDB (ideal) or SQLite or pandas
+- Do a first look: row counts, column types, sample rows
+
+**Step 2 — Data profiling & cleaning (~10 min)**
+- Discover the data quality issues (see cheat sheet below)
+- Create clean staging tables/views
+
+**Step 3 — Modeling & analysis (~20-25 min)**
+- Join tables together (incidents → scans → orgs)
+- Build analytical queries: MTTR, incident trends, detector effectiveness, customer health, plan type analysis
+
+**Step 4 — Validation & output (~5-10 min)**
+- Sanity checks (row counts, NULL checks, value ranges)
+- Clean output she can walk you through
+
+### Data quality issues cheat sheet (12 traps)
+
+She doesn't need to find ALL of them, but finding 5+ is a green flag.
+
+| # | Issue | Where | How to spot it |
+|---|---|---|---|
+| 1 | **Duplicate rows** | All 3 tables | COUNT(*) vs COUNT(DISTINCT pk) |
+| 2 | **Whitespace in names** | raw_organizations.org_name | TRIM() or visual inspection |
+| 3 | **Mixed-case plan_type** | raw_organizations (one "Business") | SELECT DISTINCT plan_type |
+| 4 | **Empty industry** | raw_organizations (1 row) | WHERE industry = '' |
+| 5 | **Empty employee_count** | raw_organizations (1 row) | Same |
+| 6 | **Negative/zero duration_ms** | raw_scan_events (3 rows) | WHERE duration_ms <= 0 |
+| 7 | **Future scan date** | raw_scan_events (1 row, year 2027) | MAX(scanned_at) |
+| 8 | **Empty repo_id** | raw_scan_events (1 row) | WHERE repo_id = '' |
+| 9 | **resolved_at < detected_at** | raw_incidents (3 rows) | WHERE resolved_at < detected_at |
+| 10 | **Unexpected status "closed"** | raw_incidents (1 row) | SELECT DISTINCT status |
+| 11 | **resolved_at set but status = "open"** | raw_incidents (2 rows) | WHERE resolved_at != '' AND status = 'open' |
+| 12 | **Empty severity** | raw_incidents (1 row) | WHERE severity = '' |
+
+### Green flags
+
+**Data exploration:** Looks at web page first, profiles data, discovers quality issues, creates staging layer
+
+**SQL quality:** CTEs, window functions, correct GROUP BY, NULL handling, filters bad data with reasoning
+
+**Analytics thinking:** Picks metrics that tell a story, thinks about audience, connects tables, mentions production additions
+
+**Claude Code usage:** Plans before coding, uses Claude for boilerplate, reviews output, iterates
+
+**Communication:** Narrates decisions, flags issues, explains trade-offs
+
+### Red flags
+
+- Doesn't read the web page / schema before coding
+- Pastes the whole prompt into Claude: "do this entire thing for me"
+- Never profiles the data
+- Misses obvious data quality issues
+- Only basic SELECT/GROUP BY — no window functions, no CTEs
+- Can't explain what a query does when asked
+- No staging layer — analysis directly on raw data
+- Silent — doesn't explain decisions
+
+### Nudges (only if stuck >5 min)
+
+| Situation | Nudge |
+|---|---|
+| Doesn't know where to start | "Maybe start by reading that web page and seeing what data is there." |
+| Stuck on fetching CSVs | "You could ask Claude to download the CSV files from those URLs and load them into DuckDB." |
+| Doesn't profile the data | "Have you checked what's actually in the data? Any surprises?" |
+| Doesn't create staging tables | "If this were dbt, would you query the raw tables directly?" |
+| Only writes basic queries | "Can you show me something about how things change over time — trends or comparisons?" |
+| Can't decide what to analyze | "If you were presenting to the Head of Security, what would they want to know?" |
+| Running out of time, no SQL | "Let's make sure we get to the SQL — even if the data loading is simple, I want to see your queries." |
+
+---
+
+## PART 5 — REVIEW & FOLLOW-UP QUESTIONS (10-15 min)
+
+### INTERVIEWER SAYS:
+
+> "Cool, let's look at what you've got. Walk me through what you built."
+
+Let her present, then pick 4-5 of these:
+
+#### On data quality:
+1. "You cleaned the data — what issues did you find?"
+2. "How did you handle the rows where resolved_at is before detected_at?"
+   - **Good:** Filtered them out OR set resolved_at to NULL with explanation
+3. "What data quality tests would you add in production?"
+   - **Good:** not_null on PKs, unique on IDs, accepted_values on status/severity, referential integrity, freshness checks
+
+#### On modeling:
+4. "If this were a dbt project, how would you structure the models?"
+   - **Good:** sources → stg_ → int_ → fct_/dim_. Mentions materialization strategy.
+5. "What's the grain of your main analysis table?"
+6. "How would you make this incremental — if new data arrives daily?"
+   - **Good:** Incremental materialization, merge on PK, use detected_at as cursor
+
+#### On SQL:
+7. "Can you walk me through this query?" *(point at the most complex one)*
+8. "How would you calculate week-over-week change in incident volume?"
+   - **Good:** DATE_TRUNC + COUNT + LAG window function
+9. "If these tables had 100M+ rows, what would you change?"
+   - **Good:** Partitioning, clustering, incremental models, pre-aggregation
+
+#### On analytics thinking:
+10. "What would you put in a Metabase dashboard for the VP of Product?"
+11. "What's missing from this dataset that would make your analysis better?"
+    - **Good:** User actions, repo metadata, alert data, false positive rate
+
+#### On Python:
+12. "If this ran daily in Dagster, what would the pipeline look like?"
+    - **Good:** Asset-based pipeline, scheduling, retries, observability, write to Snowflake
+
+---
+
+## PART 6 — SCORING
+
+### INTERVIEWER SAYS:
+
+> "That wraps up the exercise. Do you have any questions for me about the role or the team?"
+
+### Scorecard
+
+| Area | 1 (Fail) | 3 (Pass) | 5 (Excellent) | Score |
+|---|---|---|---|---|
+| **Clarification** | Coded immediately, no questions | Asked 2-3 questions, explored data page | Thorough scoping, proposed plan, checked schema first | /5 |
+| **Python** | Couldn't fetch or load CSVs | Working fetch + load, basic cleaning | Clean code, proper types, handles errors, well-structured | /5 |
+| **SQL** | Only SELECT * or broken queries | Correct JOINs, GROUP BY, CTEs, handles NULLs | Window functions, creative metrics, clean readable style | /5 |
+| **Data quality** | Missed all issues | Found 3-4 issues, handled them | Found 6+, clean staging layer, explained reasoning | /5 |
+| **Analytics thinking** | Random aggregations, no story | Meaningful metrics, audience-aware | Production mindset: testing, incremental, dashboards, layers | /5 |
+| **Claude Code** | "Do everything for me" | Used effectively, reviewed output | Strategic prompts, drove the logic, iterated well | /5 |
+
+**Total: /30**
+
+| Score | Verdict |
+|---|---|
+| 24-30 | Strong hire |
+| 18-23 | Hire |
+| 12-17 | Borderline |
+| <12 | No hire |
+
+---
+
+## APPENDIX — IDEAL SOLUTION SHAPE
+
+A strong candidate produces roughly:
+
+\`\`\`python
+# 1. Fetch CSVs
+import requests, duckdb
+
+# Download each CSV from the site URLs and load into DuckDB
+\`\`\`
+
+\`\`\`sql
+-- 2. Staging (clean layer)
+CREATE TABLE stg_organizations AS
+SELECT DISTINCT
+    org_id,
+    TRIM(org_name) AS org_name,
+    LOWER(plan_type) AS plan_type,
+    CAST(signed_up_at AS TIMESTAMP) AS signed_up_at,
+    NULLIF(industry, '') AS industry,
+    CAST(NULLIF(employee_count, '') AS INTEGER) AS employee_count
+FROM raw_organizations;
+
+-- Similar for stg_scan_events and stg_incidents
+
+-- 3. Analysis queries
+-- MTTR by plan type (JOIN, WHERE, AVG, GROUP BY)
+-- Incident trends over time (DATE_TRUNC, COUNT, LAG window function)
+-- Top detectors by severity (GROUP BY, CASE WHEN)
+-- Customer health (ranking window function, JOIN across all 3 tables)
+\`\`\`
+
+### What distinguishes a 3 from a 5:
+
+| Area | Score 3 | Score 5 |
+|---|---|---|
+| Data quality | Finds duplicates + NULLs | Finds 6+ issues, explains each, staging handles all |
+| SQL | Correct GROUP BY and JOINs | Window functions, DATE_TRUNC trends, creative metrics |
+| Analytics | Answers obvious questions | Picks metrics a VP would care about, tells a story |
+| Production thinking | "It works" | "Here's what I'd add: tests, incremental, monitoring" |
+`;
+    document.getElementById('content').innerHTML = marked.parse(markdown);
+    </script>
+</body>
+</html>

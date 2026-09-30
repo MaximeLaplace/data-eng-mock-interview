@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Script v2 — Customer Health & Engagement</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        h1 { color: #0d1117; border-bottom: 2px solid #e1e4e8; padding-bottom: 10px; }
+        h2 { color: #24292f; margin-top: 2em; border-bottom: 1px solid #e1e4e8; padding-bottom: 6px; }
+        h3 { color: #333; }
+        h4 { color: #555; }
+        table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px; }
+        th, td { border: 1px solid #d0d7de; padding: 8px 12px; text-align: left; }
+        th { background: #f0f3f6; font-weight: 600; }
+        tr:nth-child(even) { background: #f6f8fa; }
+        code { background: #eff1f3; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+        pre { background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 6px; overflow-x: auto; }
+        pre code { background: none; color: inherit; padding: 0; }
+        blockquote {
+            border-left: 4px solid #3b82f6;
+            margin: 1em 0;
+            padding: 12px 20px;
+            background: #eff6ff;
+            color: #1e3a5f;
+        }
+        blockquote p { margin: 0.5em 0; }
+        hr { border: none; border-top: 2px solid #e1e4e8; margin: 2em 0; }
+        strong { color: #0d1117; }
+        a { color: #1565c0; }
+        ul, ol { padding-left: 24px; }
+        li { margin: 4px 0; }
+        .banner {
+            background: #dc2626;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">INTERVIEWER ONLY — Do not share this page with the candidate</div>
+    <div id="content"></div>
+    <script>
+    const markdown = `
+# Interview Script v2 — Customer Health & Engagement
+
+## Self-practice version
+
+This is the second interview exercise. Same format as v1 (Secret Detection), different data and domain. Use this for solo practice after reviewing v1 feedback.
+
+---
+
+## The prompt
+
+> "We're trying to understand which customers are healthy and which ones might churn. We have some data about our customers, how they use the product, and their support tickets. I've put it on a website. Build me something that helps us figure out where to focus."
+
+Give the candidate the root URL of this site.
+
+---
+
+## What this tests (same skills as v1, different angle)
+
+| v1 (Secret Detection) | v2 (Customer Health) |
+|---|---|
+| Incident resolution (MTTR) | Support ticket resolution (MTTR) |
+| Severity breakdown | Priority breakdown |
+| Detector effectiveness | Feature adoption |
+| Customer plan analysis | Churn analysis + MRR impact |
+| Weekly incident trends | Daily/weekly usage trends |
+
+**New concepts tested in v2:**
+- Churn analysis (combining usage + support + subscription data)
+- Revenue metrics (MRR at risk, revenue by segment)
+- Feature adoption & engagement scoring
+- Larger dataset (~7K usage rows — tests if she handles volume)
+
+---
+
+## Clarification guide
+
+| Her question | Your answer |
+|---|---|
+| "What do you mean by 'healthy'?" | "That's part of the question — how would you define a healthy customer?" |
+| "Should I build a churn model?" | "Not a prediction model — more like identify signals. Which customers look at risk and why?" |
+| "How should I combine the three datasets?" | "That's up to you. They all share customer_id." |
+| "What's the time period?" | "The data covers Q1 2025 — January through March." |
+| "Who would use this?" | "Think VP of Customer Success — they want to know who to call this week." |
+
+---
+
+## Data quality issues cheat sheet (16 traps)
+
+| # | Issue | Table | Detail |
+|---|---|---|---|
+| 1 | Duplicate rows | All 3 | One dup per table |
+| 2 | Whitespace in company_name | raw_customers | Leading/trailing spaces |
+| 3 | Mixed-case region | raw_customers | "EU-West" vs "eu-west" |
+| 4 | Negative MRR | raw_customers | 1 row with -199 |
+| 5 | Empty acquisition_source | raw_customers | 1 row |
+| 6 | Seats = 0 | raw_customers | 1 row (doesn't make sense) |
+| 7 | Future signup (2026) | raw_customers | 1 row |
+| 8 | Free plan with MRR > 0 | raw_customers | Possible 1 row (inconsistency) |
+| 9 | Negative event_count | raw_daily_usage | 3 rows |
+| 10 | Empty customer_id | raw_daily_usage | 2 rows |
+| 11 | Date outside range | raw_daily_usage | 1 row (Nov 2024) |
+| 12 | Feature name typo | raw_daily_usage | "dashbord_view" (3 rows) |
+| 13 | resolved_at < created_at | raw_support_tickets | 2 rows |
+| 14 | Satisfaction out of range | raw_support_tickets | 0, 6, and -1 |
+| 15 | Empty category | raw_support_tickets | 1 row |
+| 16 | Unknown priority "urgent" | raw_support_tickets | 1 row |
+
+---
+
+## What a strong solution looks like
+
+### Step 1 — Fetch & profile
+- Download 3 CSVs, load into DuckDB
+- Row counts, distinct checks, value distributions
+- Discover at least 5-6 data quality issues
+
+### Step 2 — Clean & stage
+
+\`\`\`sql
+-- stg_customers: TRIM names, LOWER region, filter negative MRR / future signups,
+--   NULLIF empty strings, dedup on customer_id
+-- stg_daily_usage: filter negative event_count, empty customer_id,
+--   fix feature typo, dedup, filter out-of-range dates
+-- stg_support_tickets: fix bad resolved_at, clamp satisfaction to 1-5,
+--   handle 'urgent' priority, dedup
+\`\`\`
+
+### Step 3 — Interesting analyses
+
+**Customer health score** (the star query):
+\`\`\`sql
+-- For each customer, combine:
+--   - Usage intensity: avg daily events over last 30 days
+--   - Usage trend: is usage going up or down? (compare last 30 vs prior 30 days)
+--   - Support burden: number of open/critical tickets
+--   - Satisfaction: avg CSAT score
+--   - Composite health indicator
+\`\`\`
+
+**MRR at risk:**
+\`\`\`sql
+-- Customers who have churned: SUM(mrr) lost
+-- Customers showing churn signals (low usage + high tickets): SUM(mrr) at risk
+\`\`\`
+
+**Feature adoption:**
+\`\`\`sql
+-- Which features are most used by plan type?
+-- Which features do churned customers NOT use? (churn signal)
+-- Feature breadth: how many distinct features per customer?
+\`\`\`
+
+**Support analysis:**
+\`\`\`sql
+-- MTTR by priority
+-- Ticket volume by category — where are customers struggling?
+-- CSAT by category — which areas disappoint?
+-- Customers with most open tickets (attention needed)
+\`\`\`
+
+**Trends:**
+\`\`\`sql
+-- Weekly usage trends per customer (window function with LAG)
+-- Are churned customers' usage declining before churn date?
+\`\`\`
+
+### Key SQL patterns expected
+- \`DATE_TRUNC('week', date)\` for time aggregation
+- \`LAG()\` / \`LEAD()\` for trend comparison
+- \`RANK()\` / \`ROW_NUMBER()\` for ranking customers
+- \`CASE WHEN\` for bucketing (health score, engagement tier)
+- \`LEFT JOIN\` to keep all customers (even those with 0 tickets)
+- \`COALESCE\` / \`NULLIF\` for NULL handling
+- \`FILTER (WHERE ...)\` or \`CASE WHEN\` inside aggregates
+
+---
+
+## Follow-up questions
+
+#### On analytics:
+1. "How did you define 'healthy' vs 'at risk'?"
+2. "If you had to pick 5 customers for the CS team to call this week, which ones and why?"
+3. "What's the relationship between feature adoption and churn in your data?"
+
+#### On modeling:
+4. "If this were dbt, how would you structure the project?"
+   - **Good:** sources → stg_ → int_customer_usage_summary → fct_customer_health, dim_customers
+5. "How would you make this incremental? New usage data arrives daily."
+6. "What grain is your customer health table?"
+
+#### On data quality:
+7. "What issues did you find in the data?"
+8. "How did you handle the satisfaction scores that were out of range?"
+9. "There's a feature name typo in the usage data — did you catch it?"
+
+#### On production:
+10. "How would you alert the CS team when a customer's health drops?"
+    - **Good:** dbt test + Dagster sensor, or metric threshold in Metabase with alerts
+11. "What would you add to make this self-service in Metabase?"
+
+---
+
+## Scorecard
+
+| Area | 1 (Fail) | 3 (Pass) | 5 (Excellent) | Score |
+|---|---|---|---|---|
+| **Clarification** | Jumped in blind | Asked a few questions | Defined "healthy", proposed plan | /5 |
+| **Python** | Couldn't load data | Working fetch + load | Clean code, proper staging | /5 |
+| **SQL** | Basic SELECTs only | JOINs, GROUP BY, CTEs | Window functions, health score, trends | /5 |
+| **Data quality** | Missed everything | Found 4-5 issues | Found 8+, clean staging, explained | /5 |
+| **Analytics** | Random queries | Meaningful metrics | Customer health framework, actionable | /5 |
+| **Claude Code** | Full delegation | Used well, reviewed | Strategic, drove logic, iterated | /5 |
+
+**Total: /30**
+
+| Score | Verdict |
+|---|---|
+| 24-30 | Strong hire |
+| 18-23 | Hire |
+| 12-17 | Borderline |
+| <12 | No hire |
+`;
+    document.getElementById('content').innerHTML = marked.parse(markdown);
+    </script>
+</body>
+</html>

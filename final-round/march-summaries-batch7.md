@@ -1,0 +1,14 @@
+# March Summaries Batch 7 (Videos & misc)
+| URL | Summary |
+|-----|---------|
+| https://youtu.be/RJyPVLMyyuA?si=fegTozl5CHDysGiu | Casey Muratori (Molly Rocket) explores whether software craftsmanship careers remain viable in the AI era, in the first episode of his "Wading Through AI" series. |
+| https://youtu.be/dHBEQ-Ryo24?si=4zPb_09AxKRoUTyX | Jeremy Howard (interviewed on Machine Learning Street Talk) challenges the prevailing optimism around AI coding tools, warning of the dangerous illusion that AI-generated code is reliable and correct. |
+| https://www.youtube.com/watch?v=TlC7jq4ooSM | The video argues for a "context as code" paradigm shift in AI-assisted development, where developers move from ad-hoc prompting to treating context as a structured, engineering-grade artifact. |
+| https://youtu.be/8kMaTybvDUw?si=JAdQMLKnrZF8pufL | Dex Horthy (HumanLayer) presents 12 architectural patterns — the "12-Factor Agents" — for building reliable and production-grade LLM-based applications. |
+| https://github.com/karpathy/autoresearch/discussions/43 | A community discussion on Karpathy's autoresearch repo reporting that an AI agent autonomously ran 126 ML experiments and improved a language model's validation loss from 0.9979 to 0.9697, with key findings around weight decay on embeddings. |
+| https://github.com/yoanbernabeu/grepai | GrepAI is a privacy-first CLI tool that enables semantic code search via local vector embeddings, allowing developers to query their codebase in natural language without sending data to the cloud. |
+| https://github.com/JayantDevkar/claude-code-karma | Claude Code Karma is a local-first, open-source dashboard that visualizes Claude Code session data (timelines, costs, live activity) directly from `~/.claude/` with no cloud connectivity required. |
+| https://www.linkedin.com/pulse/openclaw-just-cron-markdown-chat-bot-thats-why-matters-ville-hellman-9meue | Ville Hellman argues that OpenClaw's significance lies not in its individual components (cron, markdown, chat) but in naming and standardizing a coherent architectural pattern for persistent, autonomous, multi-channel AI systems. |
+| https://mathstodon.xyz/@tao/116252708577614828 | Terence Tao reflects on AI's transformative impact on mathematics, drawing an analogy to how automobiles reshaped cities and urging the community to plan thoughtfully so valuable practices are not lost. |
+| https://www.reddit.com/r/ClaudeCode/comments/1rr673k/claude_just_released_btw_and_its_clutch/ | A Reddit post celebrates Claude Code's new `/btw` command as a clutch feature for managing impulse control and keeping agentic sessions on track. |
+| https://webinar.openai.com/inside-openai-how-we-built-a-production-system-with-0-lines-of-human-code/ | An OpenAI webinar detailing how the team built a production system entirely through AI-generated code, with zero lines written by humans. |

@@ -1,0 +1,602 @@
+incident_id,event_id,detector_name,severity,status,detected_at,resolved_at
+inc_672cd888f555,evt_8e85310878f5,JWT Secret,medium,resolved,2024-03-14 13:48:25,2024-04-04 06:48:25
+inc_8fbe3498401b,evt_8375bc7337a1,GitHub Token,low,resolved,2024-10-11 02:52:34,2024-11-09 21:52:34
+inc_358cb8a0c142,evt_b44067f3eb2f,SendGrid Key,medium,resolved,2025-12-15 21:21:13,2026-01-03 17:21:13
+inc_e396cb589c1c,evt_a2a3e969dcfa,AWS Keys,medium,open,2025-03-20 11:39:48,
+inc_e25c49e2067f,evt_9d822744baff,Private Key,medium,resolved,2025-04-14 07:18:32,2025-04-15 13:18:32
+inc_df59a16da6b4,evt_85cb789e581e,SendGrid Key,critical,open,2025-01-28 04:57:43,
+inc_9b147f036ca5,evt_a9d66f2be5dc,Google API Key,high,resolved,2025-08-28 00:30:57,2025-08-29 00:30:57
+inc_700451582a62,evt_f0b84361b5ac,Slack Webhook,critical,resolved,2024-12-18 03:27:49,2024-12-19 19:27:49
+inc_90ac9e27fae5,evt_b88fe10858be,Stripe API Key,medium,open,2025-11-20 17:02:09,
+inc_a4a3a8ee3275,evt_6a9410c3eda0,GitHub Token,medium,resolved,2024-09-22 15:12:33,2024-09-26 20:12:33
+inc_906086d548f0,evt_43441bfe2b6b,Stripe API Key,low,ignored,2025-03-11 22:50:29,
+inc_e1b5c6b0ca33,evt_7509b8c781a4,Database URI,low,ignored,2025-05-27 01:55:23,
+inc_f3284a9f17c2,evt_ae1a15103685,Stripe API Key,low,ignored,2024-07-25 00:53:37,
+inc_6adefae665e7,evt_03dba4589b4d,SendGrid Key,low,ignored,2025-09-21 10:58:21,
+inc_c5fb3628e12e,evt_408103bf293b,Google API Key,low,ignored,2024-04-02 16:54:58,
+inc_c94f540d7b52,evt_2c3de9326098,JWT Secret,low,open,2024-04-27 00:56:51,
+inc_33d12b1b651d,evt_0598be70dec2,Stripe API Key,medium,ignored,2025-01-09 11:25:56,
+inc_086ad492fa0b,evt_62ffab70cf43,JWT Secret,medium,open,2025-03-12 12:00:58,
+inc_4888a161e7c9,evt_0d4691af1144,Generic Password,low,open,2025-06-10 01:34:58,
+inc_53d7e2cc3de5,evt_6d4faea93488,Generic Password,high,resolved,2025-12-23 13:12:53,2025-12-25 17:12:53
+inc_a27af1ac2dff,evt_f8d50762b1c2,Stripe API Key,low,open,2025-12-12 18:52:43,
+inc_b3eefaed9f59,evt_e9c2b25c2e07,Google API Key,high,ignored,2025-07-17 03:25:33,
+inc_521d35a4829b,evt_102f291abe1a,AWS Keys,medium,ignored,2025-09-25 19:36:59,
+inc_7c9dc42c01d4,evt_6d4faea93488,Database URI,low,open,2024-01-23 21:35:23,
+inc_142403091960,evt_cef5eb73049e,Database URI,medium,resolved,2025-10-27 08:37:55,2025-11-09 02:37:55
+inc_14d84c91d026,evt_70dd763fd711,JWT Secret,critical,resolved,2025-03-26 17:49:13,2025-03-28 09:49:13
+inc_57f6a147845b,evt_3c81b1e162e7,Slack Webhook,low,resolved,2024-05-24 18:30:14,2024-07-20 09:30:14
+inc_b20a8fc039eb,evt_fd18cfea55e9,Database URI,high,open,2025-07-31 14:33:36,
+inc_56ce91ff3a34,evt_d51a0a716449,JWT Secret,medium,ignored,2025-01-19 17:18:35,
+inc_68715bdd672d,evt_88e2b9c87916,Generic Password,high,ignored,2024-01-25 03:24:43,
+inc_23152dfa86c5,evt_9fef6fcebbcb,SendGrid Key,medium,ignored,2025-02-05 07:17:40,
+inc_2f53e1ac13bb,evt_88844fdfc905,GitHub Token,medium,ignored,2024-01-13 15:30:23,
+inc_5cf11701ee11,evt_dd3ef7589d3a,JWT Secret,low,closed,2025-11-18 01:14:39,
+inc_41bab7d194fe,evt_cee86ad16bc7,AWS Keys,low,open,2025-10-16 10:10:18,
+inc_908a5afb2a32,evt_3e27afea9aec,Database URI,medium,open,2025-07-26 12:52:21,
+inc_1087156ea17a,evt_6f0277c39553,Generic Password,low,open,2024-03-29 11:01:22,
+inc_4b734f897773,evt_f2514d2227a3,Database URI,medium,resolved,2024-06-21 23:14:47,2024-06-23 02:14:47
+inc_4d2c01cc2fb5,evt_58ebc783fa2d,GitHub Token,high,resolved,2025-04-18 01:07:15,2025-04-18 14:07:15
+inc_62a80169b8fb,evt_fd18cfea55e9,Database URI,high,ignored,2024-10-13 22:08:46,
+inc_605ecdd05ce0,evt_e26381250414,Twilio Auth Token,critical,resolved,2024-07-04 21:38:27,2024-07-06 05:38:27
+inc_ca3116a0b563,evt_26c2099b7dfd,Twilio Auth Token,high,resolved,2025-03-03 07:43:44,2025-03-07 06:43:44
+inc_e80ba2910fec,evt_dd3ef7589d3a,JWT Secret,low,resolved,2025-09-10 23:28:15,2025-09-27 04:28:15
+inc_3e0a3088aaf4,evt_9a5d40a65b37,GitHub Token,low,ignored,2024-02-26 08:05:13,
+inc_4da307153b44,evt_2821181df0a1,GitHub Token,low,open,2024-12-16 00:38:59,
+inc_f57b3b93383f,evt_81ecd9e7a0b6,Twilio Auth Token,medium,ignored,2024-04-19 05:46:56,
+inc_6e677a5b0dfc,evt_cd9a91be57b2,Google API Key,high,ignored,2025-05-27 04:21:17,
+inc_23ba99d6529c,evt_d8e9270429ac,Stripe API Key,medium,open,2024-06-12 03:40:10,
+inc_ec0e7ea1ea8b,evt_c4d9b965351c,Twilio Auth Token,low,resolved,2025-05-30 12:27:47,2025-07-29 05:27:47
+inc_35947ad0023e,evt_e34fd25a92bb,JWT Secret,medium,open,2025-08-21 16:41:51,
+inc_f641fe0c8277,evt_6e798a5f30ab,Google API Key,critical,resolved,2025-09-20 06:45:01,2025-09-21 04:45:01
+inc_7a1af84999ad,evt_28ab481eb1fe,Private Key,medium,open,2024-06-12 16:42:33,
+inc_91b28689cdc5,evt_d2b4492c4ca4,Database URI,high,resolved,2024-04-08 21:56:44,2024-04-10 22:56:44
+inc_29d4b905cfb1,evt_ae1a15103685,SendGrid Key,critical,resolved,2024-09-11 14:31:00,2024-09-12 00:31:00
+inc_755426730ed6,evt_4c851261586f,Private Key,low,open,2025-05-23 14:07:36,
+inc_cd19521b412e,evt_89ca43b6df12,SendGrid Key,medium,ignored,2024-04-19 00:41:57,
+inc_0d65b29d6bcd,evt_8af034b7aef1,Generic Password,high,open,2024-11-01 04:13:41,
+inc_415fdc89ae4e,evt_88963a94e7f4,Google API Key,medium,open,2025-11-25 15:15:47,
+inc_349480108cb1,evt_ec7d7a678f3e,Slack Webhook,medium,open,2024-05-09 23:49:23,
+inc_c33d918b5b34,evt_bbe4c1985b1b,Google API Key,low,ignored,2025-05-23 07:32:45,
+inc_baf7cc4cff5f,evt_607618a9fae8,JWT Secret,high,ignored,2025-06-15 14:40:35,
+inc_dadaacbc30a5,evt_0e4482ced478,Database URI,low,resolved,2024-05-17 19:23:21,2024-06-29 09:23:21
+inc_f7c88208ec29,evt_2821181df0a1,Google API Key,high,resolved,2024-05-14 06:41:51,2024-05-16 04:41:51
+inc_6ebe157366d2,evt_defdcedbb71b,SendGrid Key,low,open,2025-04-17 12:21:06,
+inc_bf0be72d2996,evt_9b97eb8783b2,AWS Keys,high,ignored,2025-02-05 06:52:49,
+inc_a8704eb17672,evt_8f10d7006ee9,Stripe API Key,high,open,2024-08-27 03:04:44,
+inc_e1650885093c,evt_f6fdd705c9f2,Database URI,medium,resolved,2025-11-09 13:27:56,2025-11-13 15:27:56
+inc_0b51b5d5eebc,evt_8d2fad11ac1f,Database URI,low,open,2025-08-03 21:51:19,
+inc_e03aa4072838,evt_3f2a59188a8e,Slack Webhook,medium,open,2024-10-22 17:21:33,
+inc_d9191ece9fa5,evt_e9c2b25c2e07,Generic Password,high,ignored,2024-12-19 05:19:20,
+inc_b7651b5adce2,evt_d51a0a716449,JWT Secret,low,ignored,2025-07-01 07:14:16,
+inc_a380b8e323fc,evt_06c1a141b94b,GitHub Token,low,resolved,2024-08-10 23:45:31,2024-09-16 20:45:31
+inc_cb19ad1a4408,evt_45dcedd5c6fb,AWS Keys,low,resolved,2024-04-04 20:52:58,2024-04-28 10:52:58
+inc_6c63e748dbf8,evt_827996085a9c,AWS Keys,critical,resolved,2025-12-13 10:17:50,2025-12-13 20:17:50
+inc_0df045f52d61,evt_436c1d20dc24,GitHub Token,low,open,2024-07-17 18:10:28,
+inc_2b793a2afa87,evt_6e798a5f30ab,AWS Keys,critical,resolved,2024-04-03 16:01:51,2024-04-04 20:01:51
+inc_208555a7ed07,evt_08f3656d50f0,Google API Key,medium,resolved,2024-05-10 06:33:32,2024-05-25 20:33:32
+inc_4dd31bc16ab6,evt_122d3e8c65f8,SendGrid Key,critical,open,2025-09-28 21:12:58,
+inc_d5f55c4ede51,evt_93c14eadf24f,Twilio Auth Token,medium,resolved,2024-07-07 07:06:59,2024-07-22 04:06:59
+inc_204e875c76dd,evt_225d5dff388e,SendGrid Key,low,ignored,2024-11-04 03:04:50,
+inc_b20a1ea8702a,evt_8af034b7aef1,Generic Password,low,ignored,2024-03-03 04:30:53,
+inc_b3c7aced3c57,evt_a27e6ff59b91,Google API Key,medium,open,2024-11-27 04:06:04,
+inc_049c81d9b685,evt_f84192a10f91,AWS Keys,high,resolved,2025-03-08 17:40:29,2025-03-14 17:40:29
+inc_1157c906a7cb,evt_82d829fcbc8d,GitHub Token,high,resolved,2024-06-06 19:52:32,2024-06-08 14:52:32
+inc_a5c341e100bc,evt_79edd6c8069b,GitHub Token,low,ignored,2025-05-10 04:34:19,
+inc_eef6b44e2378,evt_ab056a7f827f,Google API Key,high,resolved,2025-05-22 05:02:47,2025-05-25 11:02:47
+inc_60288d3ef470,evt_a65d6068c422,SendGrid Key,medium,open,2024-04-18 03:31:40,
+inc_32094315549b,evt_169da1568a2c,GitHub Token,high,open,2025-06-12 03:47:48,
+inc_a1ad5815d56d,evt_f2746da9a7c5,Database URI,high,open,2025-12-12 08:46:12,
+inc_3f74577f8643,evt_4af5475f50fb,Twilio Auth Token,low,open,2024-06-22 10:44:15,
+inc_38d0998d9652,evt_9578a7978ecd,JWT Secret,critical,resolved,2024-07-23 14:08:49,2024-07-24 05:08:49
+inc_a4530c5027dc,evt_d347fef110dd,AWS Keys,high,ignored,2024-06-04 21:49:05,
+inc_10d020866de3,evt_ab5e403669dd,Slack Webhook,low,open,2024-02-08 00:30:20,
+inc_83b33bbf357f,evt_705524db913a,Twilio Auth Token,medium,open,2025-11-25 19:12:12,
+inc_348c1e0735ef,evt_3c4d29fe612a,Twilio Auth Token,low,open,2025-11-12 04:11:16,
+inc_f953669bad47,evt_82330f0da5ba,JWT Secret,medium,ignored,2025-02-22 21:01:09,
+inc_55c256dd0f51,evt_70dd763fd711,Stripe API Key,critical,resolved,2024-02-19 02:50:02,2024-02-21 02:50:02
+inc_815c60cd6291,evt_ce46b1b60ac3,JWT Secret,high,resolved,2024-09-06 19:08:27,2024-09-11 02:08:27
+inc_3bad8c8812b0,evt_607618a9fae8,Private Key,low,ignored,2024-05-10 23:40:06,
+inc_bc1c38c5c512,evt_283e963829cf,Database URI,high,resolved,2025-06-11 20:17:33,2025-06-15 12:17:33
+inc_6d3e46fae665,evt_4b1841f9e598,Database URI,high,resolved,2024-02-12 01:23:42,2024-02-17 19:23:42
+inc_a0dae02d6420,evt_378a9ee41413,Google API Key,low,resolved,2025-08-23 22:05:07,2025-10-18 06:05:07
+inc_f84013a5361a,evt_880c0233889e,JWT Secret,critical,resolved,2024-08-17 01:29:42,2024-08-17 03:29:42
+inc_8c150e0f9c09,evt_298e9001e3f4,Generic Password,critical,resolved,2024-08-12 05:12:16,2024-08-12 16:12:16
+inc_70af18240531,evt_6a5c077fa30a,Database URI,medium,resolved,2024-07-07 15:12:39,2024-07-06 06:12:39
+inc_d540a2dd389a,evt_981e55ec6313,Generic Password,low,ignored,2025-02-08 20:49:26,
+inc_c932b27fef9e,evt_e1bae33b2615,Google API Key,medium,open,2024-08-09 11:20:29,
+inc_edba9a4f3166,evt_f7d8fedde2ea,Private Key,medium,ignored,2025-10-19 23:42:39,
+inc_d312dde09cc3,evt_8d2fad11ac1f,JWT Secret,low,open,2025-06-28 00:37:41,
+inc_9deb68ee18c4,evt_fd65278a028a,Stripe API Key,critical,resolved,2025-02-10 23:44:49,2025-02-11 05:44:49
+inc_00126bb3daaa,evt_181668325c94,JWT Secret,critical,resolved,2025-06-22 09:44:19,2025-06-22 14:44:19
+inc_4090a3e9febd,evt_1ba232065228,Private Key,low,open,2024-01-09 04:37:29,
+inc_49cd74b3e224,evt_d8e9270429ac,GitHub Token,medium,open,2025-05-29 12:50:59,
+inc_e4bd4e309834,evt_6807b75ae5f0,Database URI,medium,resolved,2025-11-16 22:07:41,2025-11-26 08:07:41
+inc_684cbf4275eb,evt_11f361709161,Generic Password,high,resolved,2025-03-09 09:45:04,2025-03-15 17:45:04
+inc_3280da4cd97c,evt_42c7cc22db5b,Twilio Auth Token,low,open,2024-03-30 22:28:43,
+inc_9aaee0b8bad7,evt_70dd763fd711,Slack Webhook,medium,resolved,2024-05-05 16:04:46,2024-05-10 22:04:46
+inc_bc0ab2de4078,evt_bc6da002bdf0,JWT Secret,high,ignored,2025-03-31 20:14:26,
+inc_5a6db282fa19,evt_6807b75ae5f0,SendGrid Key,medium,open,2025-11-15 14:18:39,
+inc_c8ec7cb12988,evt_ee74adfe012b,Stripe API Key,low,resolved,2025-06-23 04:40:27,2025-08-01 22:40:27
+inc_8cd7538b2d15,evt_283e963829cf,Database URI,high,resolved,2025-11-23 21:14:19,2025-11-30 13:14:19
+inc_f5a526c0e327,evt_b2992385a7c0,Stripe API Key,high,resolved,2025-09-19 19:53:35,2025-09-20 02:53:35
+inc_d7685d787175,evt_95965b786139,Private Key,medium,resolved,2025-06-02 04:42:44,2025-06-20 23:42:44
+inc_978d51e4fe2c,evt_8f10d7006ee9,Twilio Auth Token,high,resolved,2024-02-10 10:58:53,2024-02-12 21:58:53
+inc_1efe57e41499,evt_93c14eadf24f,Google API Key,medium,resolved,2025-01-19 23:02:28,2025-01-22 23:02:28
+inc_45f218ee0a4b,evt_f2a0e50b0df9,Generic Password,low,resolved,2025-06-06 01:02:24,2025-06-19 11:02:24
+inc_8f52c7a5f7ca,evt_5c952a819d64,Generic Password,low,ignored,2024-02-18 14:16:22,
+inc_241066e6dd96,evt_6e3f82ff3178,Slack Webhook,low,resolved,2025-09-09 04:43:01,2025-10-30 21:43:01
+inc_1410ca1ac862,evt_f2746da9a7c5,JWT Secret,low,resolved,2024-11-21 02:37:47,2024-11-18 22:37:47
+inc_026c5b8ff686,evt_33c050d41444,SendGrid Key,low,open,2024-07-04 21:27:08,
+inc_a257e2a87473,evt_408103bf293b,AWS Keys,low,open,2025-05-16 18:04:06,
+inc_00467c94a756,evt_b44067f3eb2f,Private Key,high,resolved,2024-09-04 21:09:26,2024-09-08 03:09:26
+inc_d8d88ec8b2bd,evt_58ebc783fa2d,Slack Webhook,medium,resolved,2024-08-26 12:29:03,2024-09-14 10:29:03
+inc_d16566c9878a,evt_0f9a78ca6b77,SendGrid Key,low,resolved,2025-05-23 10:46:36,2025-06-23 05:46:36
+inc_b1f84c386e6e,evt_d116f68b3260,Database URI,critical,open,2025-03-21 10:33:48,
+inc_ea33919608cb,evt_5d544038d8ba,Slack Webhook,medium,resolved,2025-03-12 22:13:15,2025-03-23 08:13:15
+inc_c8a8d88aedb3,evt_a65d6068c422,Twilio Auth Token,medium,resolved,2025-07-27 13:42:22,2025-08-23 06:42:22
+inc_c922d4d06a00,evt_cc0c4256b458,Slack Webhook,high,open,2025-06-14 05:41:00,
+inc_62eb83d74960,evt_ce970e35d2ac,SendGrid Key,low,open,2025-04-02 10:49:35,
+inc_c1577973985d,evt_88ca805b87a4,Database URI,low,open,2025-02-26 22:32:51,
+inc_bdcb60ec4f3c,evt_e39793bf9fe6,Database URI,medium,ignored,2025-12-06 03:42:57,
+inc_52b7e9567600,evt_6f0277c39553,Google API Key,low,resolved,2025-11-28 14:14:52,2025-12-08 12:14:52
+inc_239c3b6513f3,evt_d51a0a716449,Slack Webhook,low,resolved,2025-06-10 09:09:18,2025-06-30 00:09:18
+inc_146c9b9e7330,evt_10b4cec419f8,GitHub Token,low,ignored,2025-08-14 13:47:34,
+inc_aa66b17637ef,evt_85cb789e581e,Stripe API Key,low,ignored,2025-11-12 10:22:51,
+inc_c4ec02a8172f,evt_ce970e35d2ac,Google API Key,medium,resolved,2024-04-17 02:01:57,2024-05-12 14:01:57
+inc_f8d352bb00d8,evt_6a5c077fa30a,JWT Secret,low,open,2024-10-18 12:59:09,
+inc_d2f1aadb5226,evt_443f67bfaac7,Slack Webhook,high,resolved,2024-08-10 14:54:03,2024-08-13 10:54:03
+inc_2e36add7f863,evt_88963a94e7f4,Twilio Auth Token,high,open,2025-07-08 21:05:34,
+inc_6f9f81f6ad76,evt_cee86ad16bc7,Private Key,medium,resolved,2025-04-25 04:48:38,2025-04-30 05:48:38
+inc_3937aeabf67f,evt_8e07a8657292,Google API Key,low,open,2025-11-10 04:25:58,
+inc_370146c68862,evt_ee2b8c5ce2db,JWT Secret,high,open,2024-07-23 06:33:42,
+inc_e7b5367aca07,evt_59218a3984c8,SendGrid Key,medium,open,2024-06-15 20:05:22,
+inc_1e2275f60fe5,evt_e9591545e62b,Generic Password,high,open,2025-10-10 07:00:50,
+inc_7f3457e9ae57,evt_612e796e75c8,Database URI,high,open,2024-04-11 20:36:40,
+inc_5a0a2a86dc8e,evt_1208c3f23508,GitHub Token,medium,resolved,2025-07-17 06:27:31,2025-08-11 02:27:31
+inc_dca4249b215e,evt_4055026b1a20,AWS Keys,low,open,2025-02-24 15:08:03,
+inc_2d394d804ef0,evt_95c17305cb55,Google API Key,critical,resolved,2025-03-29 15:08:37,2025-03-31 05:08:37
+inc_88802fda6e5d,evt_4921a6918021,JWT Secret,medium,ignored,2024-01-24 22:30:38,
+inc_1f1d0376dfe3,evt_196e946daea7,JWT Secret,high,resolved,2024-07-15 06:19:40,2024-07-17 01:19:40
+inc_980e3648f889,evt_ee74adfe012b,JWT Secret,low,resolved,2025-01-16 01:21:52,2025-02-26 08:21:52
+inc_78b1aad57eba,evt_b44067f3eb2f,Slack Webhook,critical,resolved,2025-05-10 16:44:10,2025-05-11 11:44:10
+inc_3cc9575b6e77,evt_ae59a8b5f130,Stripe API Key,critical,resolved,2024-09-08 23:49:10,2024-09-10 00:49:10
+inc_b11887cc4d60,evt_4d61e1fb8462,JWT Secret,high,resolved,2024-09-19 08:12:44,2024-09-25 08:12:44
+inc_25149b9421e6,evt_621775586d53,JWT Secret,low,resolved,2025-11-04 19:19:48,2025-12-09 08:19:48
+inc_516895cbac69,evt_d2b2f7e53908,Slack Webhook,medium,resolved,2024-05-04 13:34:50,2024-05-07 05:34:50
+inc_14b607e543c3,evt_25f415c0bd77,GitHub Token,high,open,2025-02-18 12:41:40,
+inc_ffb982ad7021,evt_1926bf2b6f46,Private Key,low,open,2025-02-19 06:19:14,
+inc_dca4da2b94f0,evt_451b4c0ee8f2,SendGrid Key,medium,open,2024-10-26 09:31:49,
+inc_fd8ca8707c48,evt_ab6546c72a74,Generic Password,critical,resolved,2025-12-29 04:09:47,2025-12-29 14:09:47
+inc_7fac14d0886a,evt_d5003dc3431e,Google API Key,critical,resolved,2024-01-30 10:15:07,2024-01-30 16:15:07
+inc_57b0b2bb7d38,evt_43441bfe2b6b,Google API Key,low,ignored,2024-03-01 21:59:53,
+inc_a464568bd1bc,evt_bc6da002bdf0,SendGrid Key,high,open,2024-08-24 15:14:12,
+inc_ace4d493b18a,evt_642ea67a010a,SendGrid Key,high,ignored,2024-01-21 20:02:35,
+inc_cf13ac557545,evt_e3d2f1cf8725,AWS Keys,high,resolved,2025-07-29 06:52:09,2025-07-31 06:52:09
+inc_8a8d836d2234,evt_fd18cfea55e9,AWS Keys,low,open,2025-11-26 13:21:29,
+inc_9e4929a570de,evt_d8e9270429ac,Twilio Auth Token,low,resolved,2024-04-03 11:49:31,2024-05-19 16:49:31
+inc_4f06a8c7223c,evt_85a77c9648b9,JWT Secret,low,open,2024-11-15 10:53:39,
+inc_3aa0336f7bd0,evt_ea4867414624,JWT Secret,high,open,2025-05-07 04:18:43,
+inc_da932ba0733c,evt_50b88f293e73,JWT Secret,high,resolved,2024-10-05 12:46:05,2024-10-12 04:46:05
+inc_35c1308a72e8,evt_e402166fe2d7,Stripe API Key,medium,resolved,2024-02-07 06:02:46,2024-03-07 11:02:46
+inc_552d82b908d0,evt_2489ee5b2142,JWT Secret,medium,ignored,2024-03-20 13:10:50,
+inc_f7506d1f3ce0,evt_6a5c077fa30a,Slack Webhook,low,open,2024-08-12 22:26:51,
+inc_cf8c0f35e91c,evt_6ee1d614e98f,SendGrid Key,high,resolved,2024-10-16 10:10:49,2024-10-20 05:10:49
+inc_44ae309856eb,evt_5c952a819d64,Private Key,medium,open,2024-11-26 22:33:00,
+inc_08e1f65b9c80,evt_9a5d40a65b37,Private Key,critical,resolved,2024-12-15 22:51:51,2024-12-17 06:51:51
+inc_87ccad75fef2,evt_12bca130ad24,GitHub Token,critical,resolved,2025-04-22 14:59:57,2025-04-22 16:59:57
+inc_4fe1e00c4686,evt_b3f384bece00,JWT Secret,low,resolved,2025-08-11 22:41:02,2025-09-02 03:41:02
+inc_7726c80ae7d0,evt_9db14bf138bd,JWT Secret,low,open,2025-08-01 08:13:25,
+inc_e1f55917e9d2,evt_8375bc7337a1,Google API Key,medium,resolved,2024-09-23 23:46:15,2024-09-27 00:46:15
+inc_54d269993172,evt_59218a3984c8,SendGrid Key,critical,resolved,2024-01-08 10:38:53,2024-01-09 18:38:53
+inc_219b9c26d4ce,evt_68f6c7c95d82,JWT Secret,medium,open,2024-03-03 07:28:00,
+inc_839d38cf79b2,evt_d51a0a716449,Database URI,medium,open,2025-03-31 05:19:34,
+inc_c0b8a2bec54c,evt_3dc9693878e2,Slack Webhook,high,open,2025-01-28 17:50:51,
+inc_b9b81919b358,evt_451b4c0ee8f2,AWS Keys,critical,resolved,2024-03-21 04:15:13,2024-03-23 02:15:13
+inc_cf7a269a4ce1,evt_8e85310878f5,SendGrid Key,low,resolved,2025-11-13 08:35:39,2026-01-10 19:35:39
+inc_a478c16a21be,evt_ce970e35d2ac,Google API Key,medium,open,2024-03-10 09:15:07,
+inc_617ec1c3dc40,evt_45dcedd5c6fb,Slack Webhook,low,open,2024-03-21 17:20:10,
+inc_165a764fc5d4,evt_fd65278a028a,Google API Key,medium,open,2024-10-30 16:37:46,
+inc_ea4e7cd71137,evt_818d09712e6f,Slack Webhook,high,resolved,2025-11-29 19:22:55,2025-11-30 13:22:55
+inc_49412b9dfd3e,evt_698c7ce42c87,Private Key,high,resolved,2025-11-25 14:22:17,2025-12-01 20:22:17
+inc_7e0abf31b65f,evt_e8359d9664c3,AWS Keys,medium,resolved,2024-04-11 00:36:57,2024-04-18 20:36:57
+inc_635e54369408,evt_f570e4945fe0,SendGrid Key,critical,resolved,2025-01-25 22:44:11,2025-01-26 06:44:11
+inc_29950b78e08e,evt_bc648ed67ed1,Twilio Auth Token,low,open,2025-08-09 21:34:39,
+inc_71a0966fc063,evt_8d2fad11ac1f,Twilio Auth Token,low,ignored,2024-07-23 12:34:02,
+inc_b984a79ce581,evt_50b88f293e73,Stripe API Key,low,resolved,2025-03-14 20:35:28,2025-04-04 22:35:28
+inc_8b37cfceac74,evt_4c851261586f,Twilio Auth Token,low,resolved,2025-11-15 19:13:09,2025-12-07 21:13:09
+inc_e0e2ec2c2ad2,evt_2b4ea00d6ac9,Stripe API Key,high,resolved,2024-03-11 02:31:10,2024-03-11 20:31:10
+inc_8a26272bfbbc,evt_267be98de0aa,Private Key,low,open,2025-03-12 15:01:12,
+inc_2f5511c0de1b,evt_17fe2cdb2e15,Google API Key,high,open,2025-10-10 08:50:14,
+inc_e580daf2cb2c,evt_53f0da3fd69a,Generic Password,medium,resolved,2024-11-18 16:12:49,2024-12-07 17:12:49
+inc_166383c83dd9,evt_ef89c76993e7,Stripe API Key,high,ignored,2025-02-23 04:18:38,
+inc_46a321987089,evt_9578a7978ecd,Generic Password,high,ignored,2024-01-27 21:54:44,
+inc_eade9f1268a6,evt_1eda09c8039b,Slack Webhook,medium,ignored,2025-06-25 20:42:06,
+inc_accad0a24093,evt_d648bc0714e5,Google API Key,,resolved,2025-09-01 03:51:08,2025-09-03 11:51:08
+inc_d14e7e8b65cc,evt_bc648ed67ed1,Slack Webhook,medium,ignored,2025-06-24 16:46:32,
+inc_6c5bc29bd2c7,evt_fdee6345cd48,Google API Key,low,ignored,2025-05-16 16:05:27,
+inc_6cc95a8c0397,evt_a4813e94fea1,Google API Key,medium,open,2025-12-28 15:05:58,
+inc_394c58112ff6,evt_60ae3b255c09,Twilio Auth Token,medium,resolved,2025-06-28 01:45:20,2025-07-25 14:45:20
+inc_aba7999a3e43,evt_62ffab70cf43,JWT Secret,medium,open,2025-05-25 05:12:33,
+inc_800cd4d04c65,evt_629cc1b48d7b,Slack Webhook,high,open,2025-02-19 12:34:39,
+inc_67f1f2641176,evt_62ffab70cf43,Private Key,medium,resolved,2024-11-10 09:30:37,2024-11-14 10:30:37
+inc_17c73320df48,evt_9edd49abcc02,GitHub Token,critical,open,2024-04-19 02:09:45,
+inc_013f0c01b98d,evt_72fabaf0e9c8,GitHub Token,medium,open,2025-01-14 15:38:42,
+inc_82cca7c06ddb,evt_06b895002016,Generic Password,high,open,2024-10-08 08:19:30,
+inc_7e9ad3e0c703,evt_9c499d047a05,Generic Password,high,resolved,2025-01-31 13:18:06,2025-02-06 05:18:06
+inc_0f48f2ad03c8,evt_c461b8606570,SendGrid Key,high,resolved,2025-06-06 08:54:11,2025-06-09 22:54:11
+inc_84836d9aa2c8,evt_0b078bacbd4c,JWT Secret,low,open,2024-11-04 17:19:42,
+inc_d2c9e8706f42,evt_25ae0c6b49fa,SendGrid Key,medium,open,2025-04-25 11:50:09,
+inc_61e0a5611de2,evt_0f9a78ca6b77,SendGrid Key,high,resolved,2025-10-31 09:53:59,2025-11-03 07:53:59
+inc_21c8f8b3706f,evt_dab54df125a1,GitHub Token,high,resolved,2025-04-16 03:12:24,2025-04-17 05:12:24
+inc_5de3e8b2dc0d,evt_1dda31e717fd,Database URI,critical,resolved,2025-04-23 11:56:58,2025-04-23 21:56:58
+inc_3b75a8f2457c,evt_133c36b3bc29,Twilio Auth Token,critical,open,2024-06-14 18:27:32,
+inc_d8eb11c8924f,evt_751f2a904fa7,SendGrid Key,high,resolved,2024-12-25 16:07:25,2025-01-01 02:07:25
+inc_5fcdf9874a44,evt_e8359d9664c3,Database URI,critical,ignored,2025-11-10 06:51:46,
+inc_d250b0bfa192,evt_6d4faea93488,Twilio Auth Token,medium,ignored,2025-08-28 11:25:19,
+inc_83ea610c7e37,evt_0ded1bd86ca0,Generic Password,medium,ignored,2025-05-21 00:12:54,
+inc_eba475784908,evt_9512333dff37,Google API Key,medium,resolved,2025-11-09 10:28:32,2025-11-21 21:28:32
+inc_8cef6a2a5a6d,evt_7509b8c781a4,Generic Password,high,resolved,2025-04-02 05:37:01,2025-04-05 15:37:01
+inc_7d19d98b7940,evt_2489ee5b2142,Private Key,high,open,2024-10-16 13:38:52,
+inc_360dc48fa3a3,evt_c1eb0d6fcae3,Generic Password,medium,open,2025-04-11 19:26:04,
+inc_de18d41050ef,evt_3e27afea9aec,Twilio Auth Token,critical,resolved,2024-12-12 03:50:22,2024-12-12 19:50:22
+inc_95be4a23870e,evt_9a5d40a65b37,GitHub Token,low,resolved,2025-05-30 20:32:17,2025-07-02 09:32:17
+inc_4168230ea3cd,evt_91798d6a5496,Generic Password,medium,open,2025-12-24 14:05:18,
+inc_081862c4db5b,evt_88e2b9c87916,Twilio Auth Token,medium,open,2025-10-27 17:18:11,
+inc_b023de9adefc,evt_50b88f293e73,GitHub Token,high,resolved,2024-11-15 16:42:34,2024-11-16 11:42:34
+inc_ead0e0d935a8,evt_cb18a35c85f6,JWT Secret,low,open,2024-01-02 22:06:05,
+inc_74fdad8bf0c1,evt_443f67bfaac7,Twilio Auth Token,critical,open,2025-01-23 06:02:08,
+inc_dfa7979aeee5,evt_ab056a7f827f,Database URI,medium,resolved,2024-04-22 12:10:07,2024-04-30 15:10:07
+inc_522342ce98e8,evt_e693d99f1b9e,Slack Webhook,low,resolved,2024-05-26 11:13:04,2024-07-02 14:13:04
+inc_24d40d6ed283,evt_43441bfe2b6b,Google API Key,medium,open,2024-11-23 09:42:53,
+inc_38e930a2bb28,evt_cd081d30a002,Generic Password,critical,resolved,2025-01-13 09:53:14,2025-01-14 07:53:14
+inc_ad42e4c10ab3,evt_5daa36fae74e,Slack Webhook,medium,resolved,2025-06-13 12:02:40,2025-07-07 23:02:40
+inc_8df3d0bfbf53,evt_76e20a998948,JWT Secret,medium,resolved,2025-01-03 11:23:19,2025-01-10 23:23:19
+inc_d9ada8c5c6b0,evt_2f93d63218bf,Google API Key,critical,open,2025-08-14 03:07:25,
+inc_e5d473df1abf,evt_4ec7e45bb560,Database URI,high,resolved,2025-06-22 14:31:35,2025-06-24 14:31:35
+inc_7116c12bcff5,evt_4d61e1fb8462,Slack Webhook,high,resolved,2025-06-14 14:22:54,2025-06-19 09:22:54
+inc_3d3ccf4e1905,evt_4b1841f9e598,Stripe API Key,medium,open,2025-12-22 09:27:35,
+inc_10ca5598c3e9,evt_b70b8d34ecc6,AWS Keys,low,ignored,2024-05-07 06:03:41,
+inc_b85f8d7b618a,evt_fe540aecd20b,AWS Keys,low,resolved,2025-07-12 12:52:59,2025-08-29 23:52:59
+inc_cb745a776819,evt_433bb723828c,GitHub Token,medium,open,2024-10-15 19:40:12,
+inc_5fb8bdab314a,evt_e3f7043c88a9,Google API Key,low,ignored,2024-05-20 16:37:01,
+inc_59bdea70a3b3,evt_4d61e1fb8462,Database URI,low,ignored,2025-11-04 13:34:26,
+inc_b7b6e77bff8b,evt_20d7c1b0021e,AWS Keys,medium,open,2024-10-11 17:45:35,
+inc_732de7894b03,evt_3c4d29fe612a,Stripe API Key,low,resolved,2024-12-02 04:10:12,2025-01-23 02:10:12
+inc_ede5513db10a,evt_0a823cda7f28,Database URI,medium,open,2025-05-29 11:12:01,
+inc_06f6b8c76351,evt_a6674b98333b,SendGrid Key,medium,ignored,2024-06-14 06:08:47,
+inc_21d95b7ce992,evt_bc648ed67ed1,Generic Password,high,resolved,2024-12-10 05:06:32,2024-12-17 01:06:32
+inc_cf99f4c47b2e,evt_2c0b311d916f,Private Key,medium,resolved,2024-05-07 15:46:56,2024-05-19 00:46:56
+inc_e488a7982f8c,evt_3e0697d772b4,JWT Secret,high,ignored,2025-08-01 20:15:40,
+inc_2b0315bb4968,evt_514c9af902c0,Google API Key,low,ignored,2025-03-12 19:38:02,
+inc_24d3a30c9af4,evt_a9c5b43d808a,Google API Key,critical,resolved,2024-01-23 18:15:21,2024-01-24 12:15:21
+inc_99125c2699c7,evt_b759ce09d4e0,Google API Key,high,open,2024-04-23 08:25:20,
+inc_9670f11f983d,evt_ab6546c72a74,AWS Keys,low,open,2025-12-21 20:03:50,
+inc_7bd98453a330,evt_133c36b3bc29,Generic Password,medium,open,2025-03-23 21:33:58,
+inc_554efe07c5d0,evt_9f1f7ef48f49,GitHub Token,low,ignored,2024-11-13 18:57:07,
+inc_dea42f6b2426,evt_85cb789e581e,AWS Keys,high,resolved,2024-04-11 21:51:10,2024-04-14 07:51:10
+inc_3314e4f388e5,evt_196e946daea7,AWS Keys,high,open,2024-12-06 22:51:35,
+inc_5b4d88aaa8b8,evt_4c1e8892a99f,Private Key,medium,ignored,2025-07-13 20:02:35,
+inc_7f2814fe62af,evt_6e798a5f30ab,Private Key,low,resolved,2024-12-15 17:59:20,2025-01-22 00:59:20
+inc_58862b294d61,evt_e484df7d9b99,Stripe API Key,medium,open,2024-10-21 00:05:47,
+inc_2dc0060f4c6c,evt_d4d19829abe7,Slack Webhook,critical,resolved,2025-12-05 09:28:09,2025-12-05 17:28:09
+inc_fcbd002bd218,evt_bd2ac4eaf591,Stripe API Key,medium,resolved,2024-12-20 08:19:55,2025-01-04 21:19:55
+inc_803767b4d2d5,evt_fcc9631c7f3a,AWS Keys,low,open,2025-12-18 19:03:50,
+inc_c0136f612fd9,evt_5c952a819d64,Stripe API Key,low,ignored,2025-07-29 20:13:56,
+inc_05d0cc75e064,evt_b53bee0d5da8,AWS Keys,low,resolved,2025-08-07 07:02:22,2025-09-12 06:02:22
+inc_adc3f047848f,evt_07931f3d6888,AWS Keys,critical,resolved,2025-02-20 02:52:55,2025-02-20 21:52:55
+inc_4dab3c471d4d,evt_1f4a5fe8561a,Private Key,medium,ignored,2024-03-29 01:26:42,
+inc_0ed79e7b681e,evt_e26381250414,Twilio Auth Token,high,resolved,2024-03-15 12:45:27,2024-03-17 10:45:27
+inc_f0cee978618e,evt_191b95e35f19,GitHub Token,critical,resolved,2025-12-07 07:18:42,2025-12-08 16:18:42
+inc_3e08c72bb5b0,evt_a2a3e969dcfa,GitHub Token,high,resolved,2025-01-01 03:47:01,2025-01-06 10:47:01
+inc_505514ee3f07,evt_fd18cfea55e9,Private Key,medium,ignored,2025-08-13 07:30:13,
+inc_cdcc33b38042,evt_93c14eadf24f,Twilio Auth Token,low,open,2024-01-26 00:49:05,
+inc_86864bdbe2b0,evt_5e3a2976505a,Slack Webhook,high,ignored,2025-09-22 16:55:55,
+inc_ad80215e7b3b,evt_4b1841f9e598,JWT Secret,low,ignored,2025-11-05 21:28:13,
+inc_b4bef5ebdcf9,evt_8d2fad11ac1f,JWT Secret,high,open,2025-07-14 18:56:33,
+inc_88bf1cad95a0,evt_283e963829cf,SendGrid Key,low,open,2024-01-31 23:21:56,
+inc_9f93338a2964,evt_d8e9270429ac,Private Key,high,open,2024-02-28 00:16:28,
+inc_28bb7b9db01a,evt_e402166fe2d7,JWT Secret,high,ignored,2024-06-03 16:58:55,
+inc_83f252e126c1,evt_ee2b8c5ce2db,Stripe API Key,critical,resolved,2024-03-31 21:12:20,2024-04-02 06:12:20
+inc_51975b7baa28,evt_f6fdd705c9f2,Private Key,critical,resolved,2024-08-23 09:21:13,2024-08-24 05:21:13
+inc_015685ce7cf2,evt_d4d19829abe7,GitHub Token,high,ignored,2024-05-10 09:38:53,
+inc_26032895d330,evt_d2b2f7e53908,GitHub Token,critical,open,2025-06-04 14:26:36,
+inc_a0732ad33ee1,evt_e26381250414,Slack Webhook,low,open,2024-04-29 18:53:13,
+inc_00c16ed5d033,evt_0c3466d672a3,JWT Secret,low,ignored,2025-01-08 08:13:31,
+inc_1b6fe0f62724,evt_d4af86734f3e,JWT Secret,high,resolved,2025-09-11 19:08:29,2025-09-15 01:08:29
+inc_4f32620b8a5a,evt_5c952a819d64,Twilio Auth Token,medium,open,2025-05-28 22:19:18,
+inc_d8308d5f82b1,evt_3f765fa9a286,JWT Secret,medium,resolved,2025-06-01 21:12:32,2025-06-29 04:12:32
+inc_d2c30418337b,evt_0ded1bd86ca0,Twilio Auth Token,high,ignored,2024-07-12 22:19:16,
+inc_5dcd1e0a27b6,evt_6a9410c3eda0,Twilio Auth Token,critical,resolved,2024-11-19 13:21:26,2024-11-21 09:21:26
+inc_d6e1ccb3f27f,evt_9b97eb8783b2,SendGrid Key,medium,ignored,2025-12-30 20:20:43,
+inc_4a81c4f46ed4,evt_9dbda98e60d8,Private Key,medium,resolved,2024-08-26 04:25:40,2024-09-20 19:25:40
+inc_0963da2658a3,evt_6ab31696207e,Twilio Auth Token,high,open,2024-07-28 16:12:57,
+inc_ddafd202fa13,evt_d648bc0714e5,AWS Keys,low,ignored,2024-10-31 03:58:46,
+inc_c8e7edae4551,evt_45dcedd5c6fb,Slack Webhook,critical,open,2024-06-18 21:13:48,
+inc_db3a396ee4be,evt_d648bc0714e5,Twilio Auth Token,medium,ignored,2025-03-05 22:26:19,
+inc_1894be0385c1,evt_0f9a78ca6b77,Twilio Auth Token,high,resolved,2024-10-07 03:56:22,2024-10-08 10:56:22
+inc_e177378c4db0,evt_6064d2c9723e,Google API Key,medium,resolved,2025-01-11 02:43:33,2025-01-15 08:43:33
+inc_76970f93240c,evt_92d13799a912,GitHub Token,high,resolved,2025-10-15 20:09:31,2025-10-18 23:09:31
+inc_c155f552420a,evt_157a1b281498,Twilio Auth Token,high,resolved,2024-08-25 07:06:18,2024-08-27 22:06:18
+inc_a9c3464bcb1a,evt_d0b9cb8b372b,JWT Secret,critical,resolved,2024-04-16 14:15:53,2024-04-17 17:15:53
+inc_ef3f76e5ec63,evt_e1bae33b2615,Google API Key,low,open,2024-03-01 23:06:51,
+inc_70c98b87fea8,evt_828c41e0d734,Stripe API Key,low,ignored,2025-09-18 04:03:18,
+inc_004d06759148,evt_a9a3ea949563,Google API Key,high,open,2025-04-08 10:27:11,
+inc_2b68efee906a,evt_f0b84361b5ac,Slack Webhook,critical,open,2024-10-06 21:52:42,
+inc_c443272f7e47,evt_79edd6c8069b,Twilio Auth Token,medium,resolved,2024-10-14 16:20:09,2024-10-17 12:20:09
+inc_1376b7d6ad0f,evt_4321eb970992,AWS Keys,low,ignored,2025-03-23 03:40:43,
+inc_f1d1c7634d2c,evt_85a77c9648b9,Slack Webhook,high,ignored,2025-12-20 06:40:23,
+inc_b76c1f970c09,evt_dd7869cca516,GitHub Token,medium,ignored,2024-02-10 00:42:44,
+inc_36231a835eed,evt_14f1e4b3c745,Database URI,high,resolved,2025-09-16 13:04:17,2025-09-20 05:04:17
+inc_a8c3d6df39e2,evt_f5a4c6a9d3e5,Twilio Auth Token,high,resolved,2025-07-05 18:44:58,2025-07-07 19:44:58
+inc_ea900ac5ee42,evt_a6674b98333b,Database URI,low,open,2025-11-22 02:12:11,
+inc_95065c001bbd,evt_87ed407b66ac,AWS Keys,low,ignored,2024-11-05 02:47:31,
+inc_ee9f20906a05,evt_1d4d98d62312,Generic Password,low,ignored,2025-01-20 02:25:38,
+inc_72f03fc33b89,evt_2b4ea00d6ac9,SendGrid Key,low,resolved,2025-08-16 14:52:56,2025-10-01 04:52:56
+inc_51263a8dc1c1,evt_8e07a8657292,Twilio Auth Token,high,resolved,2024-09-05 08:33:44,2024-09-06 05:33:44
+inc_2fc037ba65b5,evt_dd3ef7589d3a,GitHub Token,high,resolved,2024-02-25 03:45:34,2024-03-01 22:45:34
+inc_c5e01089fe9b,evt_c3d6068f9517,Twilio Auth Token,high,resolved,2025-12-07 18:46:46,2025-12-14 10:46:46
+inc_6ecd2e65ab39,evt_f6fdd705c9f2,SendGrid Key,critical,resolved,2025-06-02 10:30:50,2025-06-02 17:30:50
+inc_59e82e0281c7,evt_dadfd79214a6,Slack Webhook,medium,resolved,2024-11-15 18:49:43,2024-11-13 09:49:43
+inc_f14017ee8141,evt_fa1f85f62a6f,SendGrid Key,low,resolved,2025-01-07 08:33:20,2025-01-27 03:33:20
+inc_a6b29f070bc5,evt_8200fb4acf7e,AWS Keys,critical,open,2024-01-31 15:17:56,
+inc_9e6359cbc5e4,evt_5ef062136419,Generic Password,medium,ignored,2024-04-27 02:42:50,
+inc_9bc2e5cddd8f,evt_578cc1fe61cb,Stripe API Key,medium,resolved,2024-06-12 17:15:05,2024-07-12 07:15:05
+inc_ad7129f7e646,evt_19acb160ba7b,Google API Key,medium,open,2024-05-18 14:59:22,
+inc_67f4d80c2b72,evt_8f10d7006ee9,GitHub Token,high,open,2024-09-09 12:59:39,
+inc_4f7e96983eef,evt_698c7ce42c87,GitHub Token,low,open,2024-08-13 21:25:22,
+inc_ba3e5fb98f4e,evt_a9a3ea949563,Google API Key,medium,open,2024-09-01 08:11:47,
+inc_05d8a14b35bc,evt_28ab481eb1fe,GitHub Token,medium,ignored,2025-01-02 06:06:25,
+inc_c1b1a6d435f3,evt_8d2fad11ac1f,Generic Password,low,resolved,2025-08-23 21:06:24,2025-09-09 19:06:24
+inc_cffd0415ec26,evt_1b510043f86a,Twilio Auth Token,low,resolved,2025-05-04 22:06:50,2025-06-22 07:06:50
+inc_04a56dbd0e03,evt_20d7c1b0021e,GitHub Token,low,open,2025-09-18 21:34:50,
+inc_2013566d868f,evt_4c851261586f,Private Key,medium,resolved,2025-10-10 04:42:03,2025-11-07 21:42:03
+inc_50a24378350e,evt_28d7d18f6ef9,Generic Password,low,open,2025-12-28 21:55:27,
+inc_2bac6bd69fe7,evt_b13f338eab66,Stripe API Key,medium,open,2025-03-03 15:29:04,
+inc_2a67ce573a74,evt_79edd6c8069b,Twilio Auth Token,medium,resolved,2024-08-26 20:24:49,2024-09-01 06:24:49
+inc_96fc4f7f7cc4,evt_ec7d7a678f3e,Google API Key,medium,open,2025-10-17 19:49:19,
+inc_bc530135a922,evt_ff3b562e0d28,Database URI,high,resolved,2024-05-25 16:03:44,2024-05-27 02:03:44
+inc_36e2626de5a5,evt_008e27f50bb0,Stripe API Key,medium,resolved,2024-07-01 12:43:03,2024-07-05 20:43:03
+inc_bcc61d03a228,evt_b890bac3af66,Private Key,high,resolved,2024-11-21 12:27:31,2024-11-25 15:27:31
+inc_dc4dcb880618,evt_112a07e0aa96,Twilio Auth Token,high,ignored,2025-10-23 10:43:00,
+inc_bb6a209866b1,evt_84d22090b678,Database URI,low,open,2024-03-02 12:34:35,
+inc_a77e925f0b41,evt_b44067f3eb2f,JWT Secret,medium,ignored,2025-01-13 05:48:16,
+inc_7a10784c1a6e,evt_03bb0420dc31,SendGrid Key,medium,resolved,2024-04-28 08:50:52,2024-05-23 11:50:52
+inc_9b0edbc4707c,evt_4ec7e45bb560,Database URI,low,ignored,2025-08-15 03:41:37,
+inc_bf5f9b39b1a9,evt_d0573375e1ee,Generic Password,low,ignored,2024-02-07 09:32:01,
+inc_2628afe04771,evt_2c3de9326098,Database URI,low,open,2025-04-09 10:17:41,
+inc_f392f1ba603a,evt_72fabaf0e9c8,GitHub Token,low,ignored,2025-07-20 10:52:31,
+inc_aef7e3afe97c,evt_600417a85409,AWS Keys,high,open,2024-02-24 17:08:08,
+inc_c9102695d034,evt_dc128cb24c90,Google API Key,high,resolved,2025-11-22 21:40:19,2025-11-29 03:40:19
+inc_6ea58021f8c7,evt_08eed26c195c,Private Key,low,resolved,2025-09-24 01:10:49,2025-11-22 12:10:49
+inc_ee4dc521230b,evt_4940125514ac,JWT Secret,low,open,2025-08-14 10:52:26,
+inc_510834f10f7c,evt_a4475841e80d,JWT Secret,medium,resolved,2025-02-20 06:21:27,2025-03-08 12:21:27
+inc_9fc6dca821da,evt_8f89db5dfabd,Google API Key,high,resolved,2025-09-26 18:39:27,2025-09-30 23:39:27
+inc_ac2cbb71339a,evt_9dbda98e60d8,GitHub Token,low,resolved,2024-07-06 03:59:04,2024-07-24 12:59:04
+inc_1f5d611530fa,evt_dab54df125a1,Stripe API Key,medium,open,2024-03-30 15:18:35,
+inc_cde10966a070,evt_e693d99f1b9e,Stripe API Key,high,ignored,2024-08-15 07:06:22,
+inc_151306be58d2,evt_f84192a10f91,JWT Secret,medium,resolved,2025-07-05 14:00:47,2025-07-25 12:00:47
+inc_4b47af8f66c5,evt_0e119643df86,Slack Webhook,critical,resolved,2024-02-03 06:00:25,2024-02-05 01:00:25
+inc_40ba73690826,evt_92d13799a912,Private Key,high,resolved,2024-07-19 21:46:13,2024-07-21 00:46:13
+inc_b0d87f2f6d7a,evt_b70b8d34ecc6,Stripe API Key,medium,open,2024-06-22 08:28:15,
+inc_4e4e14d39ad1,evt_4940125514ac,Private Key,low,ignored,2025-06-09 05:55:32,
+inc_c5412887364a,evt_a65d6068c422,Generic Password,medium,open,2025-11-20 11:46:28,
+inc_4112e2926a2f,evt_711e9294cd65,GitHub Token,low,open,2025-05-06 20:27:28,
+inc_9d40de53a0d8,evt_9d822744baff,Stripe API Key,medium,resolved,2024-07-23 13:11:38,2024-08-04 03:11:38
+inc_dfef3c4acb01,evt_f570e4945fe0,Slack Webhook,low,open,2024-05-17 20:05:30,
+inc_f6d661385cc4,evt_8aef758fc1c1,Stripe API Key,medium,open,2024-04-23 06:43:27,
+inc_083d63a2cf74,evt_2821181df0a1,Stripe API Key,high,resolved,2025-09-09 10:41:14,2025-09-13 19:41:14
+inc_9760cfec5e14,evt_859b4d3e9e38,Private Key,medium,ignored,2025-05-20 16:12:23,
+inc_bde968bf715b,evt_dadea83052c3,SendGrid Key,low,open,2025-01-22 10:50:23,
+inc_7a964f5603d0,evt_a65d6068c422,Stripe API Key,medium,ignored,2025-02-11 05:24:12,
+inc_c18049a40b18,evt_85cb789e581e,Google API Key,medium,resolved,2024-11-08 00:36:06,2024-11-10 15:36:06
+inc_101d35006e1c,evt_a7ce5be0fba5,Stripe API Key,low,open,2024-10-07 06:20:19,
+inc_798abfe2323a,evt_5385bce719e0,SendGrid Key,medium,open,2024-08-01 22:05:30,
+inc_94683665a067,evt_6064d2c9723e,Stripe API Key,medium,ignored,2025-10-02 16:16:28,
+inc_a19169d27367,evt_06b895002016,Slack Webhook,medium,ignored,2024-07-24 03:38:50,
+inc_d3ded2a023f5,evt_ce792b724d03,Generic Password,medium,open,2024-08-16 11:47:32,
+inc_b27e4fc46a20,evt_5c5ce8e8a126,Slack Webhook,critical,resolved,2024-12-12 18:15:52,2024-12-14 09:15:52
+inc_4347ff8426db,evt_45dcedd5c6fb,Database URI,medium,open,2025-06-06 23:11:53,
+inc_cfe9802cd33d,evt_9fef6fcebbcb,Database URI,high,resolved,2024-01-01 01:43:17,2024-01-06 18:43:17
+inc_ea0922b7b3bf,evt_5c952a819d64,Slack Webhook,high,open,2025-04-25 11:28:55,
+inc_09667f876bdc,evt_c461b8606570,GitHub Token,high,resolved,2024-08-20 10:31:25,2024-08-22 01:31:25
+inc_84220b967aad,evt_e75d8cdcadbf,Private Key,low,open,2025-11-06 10:53:49,
+inc_29c9677fe35d,evt_a4227bb03756,Google API Key,medium,resolved,2024-02-23 03:17:05,2024-03-17 18:17:05
+inc_1f07cb7e9565,evt_a9c5b43d808a,GitHub Token,high,open,2024-12-14 15:03:09,
+inc_98d4a46ea1bd,evt_28480e11b304,JWT Secret,high,resolved,2025-09-02 06:58:54,2025-09-07 17:58:54
+inc_95174ed1756c,evt_d7a5873d0cc5,Stripe API Key,medium,open,2024-12-23 18:40:39,
+inc_d749b4f330d9,evt_08eed26c195c,JWT Secret,high,resolved,2025-06-09 23:51:04,2025-06-15 16:51:04
+inc_562ff93bff8a,evt_99cbb19d4ae1,Google API Key,medium,open,2024-11-28 06:45:25,
+inc_e3e7e70929c4,evt_81ecd9e7a0b6,Database URI,high,open,2025-04-04 13:28:28,
+inc_aa280f66fdf7,evt_f570e4945fe0,Twilio Auth Token,low,open,2025-05-08 21:35:57,
+inc_328be51f264c,evt_607618a9fae8,AWS Keys,medium,resolved,2024-02-16 15:09:33,2024-02-26 19:09:33
+inc_40d324d8ad73,evt_8e07a8657292,Google API Key,low,resolved,2024-04-30 17:03:45,2024-05-11 17:03:45
+inc_40b48b538a68,evt_102f291abe1a,Private Key,low,ignored,2024-05-14 22:13:37,
+inc_a70ccb59c67d,evt_f7e2edf4c56d,SendGrid Key,critical,resolved,2025-03-16 21:47:18,2025-03-18 10:47:18
+inc_3b5a8e38fb59,evt_3661e34d7fdf,Private Key,medium,ignored,2024-11-04 17:04:56,
+inc_52be2543d65a,evt_5c952a819d64,Slack Webhook,low,resolved,2025-02-17 10:25:59,2025-03-15 09:25:59
+inc_62ddb51d0c5a,evt_3f2a59188a8e,SendGrid Key,medium,resolved,2024-10-09 04:18:04,2024-10-29 11:18:04
+inc_8881bbe5b692,evt_6ab31696207e,Slack Webhook,low,open,2024-12-16 09:35:30,
+inc_556f6331c064,evt_f8d50762b1c2,Stripe API Key,high,resolved,2025-05-01 17:01:21,2025-05-02 16:01:21
+inc_90a43fb5623c,evt_7d0d7250acf5,Slack Webhook,low,resolved,2025-09-10 06:01:20,2025-10-03 04:01:20
+inc_20bb49c2ac0f,evt_7d0d7250acf5,JWT Secret,medium,ignored,2025-10-31 13:16:43,
+inc_869fb055b5fb,evt_0a823cda7f28,SendGrid Key,medium,resolved,2024-11-17 21:45:58,2024-11-25 06:45:58
+inc_8ae8ef6205c3,evt_3f686d4bd15e,Google API Key,high,resolved,2025-08-24 04:58:54,2025-08-27 18:58:54
+inc_1167d855269a,evt_d0b9cb8b372b,Stripe API Key,high,open,2025-08-25 01:09:14,
+inc_914818aafcb2,evt_642ea67a010a,Database URI,medium,resolved,2025-07-14 05:41:36,2025-07-16 07:41:36
+inc_ef99dc3d341b,evt_d347fef110dd,Database URI,medium,resolved,2025-08-15 10:14:31,2025-09-05 12:14:31
+inc_958e6a851a5e,evt_4f020e4bf596,Google API Key,medium,open,2025-02-03 15:44:40,
+inc_ae5c1da4a7f2,evt_1d4d98d62312,Generic Password,high,resolved,2025-02-16 01:12:58,2025-02-21 06:12:58
+inc_50e3f79564ff,evt_f570e4945fe0,SendGrid Key,medium,resolved,2025-01-22 12:00:49,2025-02-10 01:00:49
+inc_41539f407da5,evt_2c0b311d916f,Google API Key,low,open,2024-04-07 02:53:58,
+inc_108ffe4c7497,evt_1b3af1793412,Stripe API Key,low,ignored,2025-06-21 08:25:00,
+inc_42a6a84ab2d6,evt_9be553fb97bb,Google API Key,high,open,2025-08-29 14:08:57,
+inc_496d7d6b4314,evt_1b510043f86a,Generic Password,medium,open,2025-04-28 16:17:45,
+inc_879cf147aba6,evt_9a5d40a65b37,Database URI,medium,ignored,2025-08-03 03:03:14,
+inc_3e3fe3af9d64,evt_e402166fe2d7,GitHub Token,critical,open,2024-07-22 15:29:16,
+inc_ba6928eb7461,evt_265b390f8f80,Private Key,high,ignored,2025-10-23 08:20:36,
+inc_f44cf6de15f3,evt_0ded1bd86ca0,SendGrid Key,high,resolved,2024-01-07 22:27:52,2024-01-08 12:27:52
+inc_29f622c35285,evt_c313569df78a,GitHub Token,medium,open,2024-02-13 01:27:35,2024-02-16 02:27:35
+inc_a22b71541169,evt_0598be70dec2,Slack Webhook,medium,resolved,2024-10-06 10:02:22,2024-10-17 14:02:22
+inc_ab8c97b2024d,evt_9edd49abcc02,Stripe API Key,medium,resolved,2024-08-19 19:59:40,2024-08-25 09:59:40
+inc_f5df408467a9,evt_2eaca7c91af6,Stripe API Key,medium,resolved,2025-03-19 21:15:36,2025-04-18 18:15:36
+inc_5cabef990b76,evt_bc6da002bdf0,Google API Key,high,resolved,2025-06-24 01:11:16,2025-06-26 08:11:16
+inc_76a2ada47117,evt_5c952a819d64,Stripe API Key,low,open,2024-12-30 19:21:43,
+inc_93eeaab98b79,evt_25ae0c6b49fa,Twilio Auth Token,critical,resolved,2025-07-20 23:24:37,2025-07-21 15:24:37
+inc_d26bb42904f5,evt_0cdaf5075093,Google API Key,critical,resolved,2024-05-27 13:33:47,2024-05-28 16:33:47
+inc_a88b3a08179b,evt_e402166fe2d7,Slack Webhook,medium,resolved,2025-10-24 03:25:11,2025-10-30 05:25:11
+inc_f78caa85cc95,evt_698c7ce42c87,Google API Key,low,open,2024-07-01 05:46:04,
+inc_d52e6fec70c8,evt_ce792b724d03,Twilio Auth Token,medium,open,2025-04-20 21:08:38,
+inc_2b41315f6403,evt_4940125514ac,AWS Keys,medium,open,2025-08-08 08:00:33,
+inc_adb79be7addd,evt_3b2b43c07001,JWT Secret,low,open,2025-09-11 13:56:09,
+inc_44eb070baf68,evt_0cdaf5075093,Twilio Auth Token,low,resolved,2025-10-28 09:32:21,2025-11-07 12:32:21
+inc_911b36fa1844,evt_a4227bb03756,Twilio Auth Token,medium,open,2025-12-06 12:01:04,
+inc_84b6359e2c96,evt_b4c653a43926,Twilio Auth Token,low,open,2025-05-12 08:27:00,2025-05-13 17:27:00
+inc_4be9b2348232,evt_a0ae7c6eb6c5,GitHub Token,medium,ignored,2024-07-30 03:20:09,
+inc_0bf935eded82,evt_f05acd45e424,SendGrid Key,high,resolved,2024-01-01 12:44:28,2024-01-05 04:44:28
+inc_8638ea892bb2,evt_b3f384bece00,Twilio Auth Token,medium,resolved,2025-06-28 06:29:09,2025-07-05 02:29:09
+inc_753fd4d9b199,evt_04c091866cc7,AWS Keys,medium,open,2024-04-26 13:46:51,
+inc_99e3dcfebddc,evt_58318986c648,Slack Webhook,high,resolved,2025-01-27 08:14:17,2025-01-31 17:14:17
+inc_0ee8491260b9,evt_0e119643df86,Private Key,medium,open,2025-05-07 19:55:05,
+inc_796d4787dd97,evt_e484df7d9b99,Google API Key,low,open,2024-10-27 21:45:48,
+inc_4b9fa5b2a7e4,evt_cb20c6fc33f6,AWS Keys,high,ignored,2025-06-21 17:10:41,
+inc_107309114923,evt_61a76eec4fdf,GitHub Token,low,open,2024-09-22 03:21:28,
+inc_94be1a74ba17,evt_e8359d9664c3,SendGrid Key,medium,open,2024-09-20 19:44:07,
+inc_eef514c65375,evt_4f020e4bf596,Stripe API Key,critical,resolved,2024-01-09 05:26:35,2024-01-11 00:26:35
+inc_7c1436486f5b,evt_ae59a8b5f130,Twilio Auth Token,low,open,2025-02-09 10:30:26,
+inc_57eb13fedd82,evt_d0b9cb8b372b,Generic Password,low,resolved,2025-03-28 18:38:52,2025-04-29 10:38:52
+inc_e177378c4db0,evt_6064d2c9723e,Google API Key,medium,resolved,2025-01-11 02:43:33,2025-01-15 08:43:33
+inc_3fca4ce4eb3f,evt_d4d19829abe7,Private Key,high,open,2025-10-23 03:46:37,
+inc_5ba780c089c0,evt_9edd49abcc02,AWS Keys,medium,open,2024-08-29 15:45:17,
+inc_88f0bf935072,evt_59218a3984c8,Generic Password,high,resolved,2024-12-07 00:51:22,2024-12-08 10:51:22
+inc_2d5dd8bf419e,evt_d5003dc3431e,Google API Key,high,ignored,2024-10-06 00:55:18,
+inc_238fd2577a35,evt_bbfb67dcd4fb,Stripe API Key,low,resolved,2024-04-14 22:43:27,2024-06-01 22:43:27
+inc_07966216bf7b,evt_3e0697d772b4,Slack Webhook,high,open,2024-07-25 03:30:53,
+inc_1e79aa3c8fe9,evt_7c581afa6b44,Stripe API Key,high,ignored,2025-01-09 23:30:19,
+inc_d56f6008f06d,evt_ce970e35d2ac,Twilio Auth Token,high,resolved,2025-02-17 04:09:35,2025-02-20 04:09:35
+inc_58ee1a8fe3a9,evt_c6fd04cf09e8,Generic Password,critical,ignored,2025-07-08 19:37:24,
+inc_2c9682fef572,evt_8fd791dab5ae,Slack Webhook,low,ignored,2025-01-27 14:02:51,
+inc_e20eedeec920,evt_20cefe9c7148,AWS Keys,medium,open,2025-10-21 07:37:42,
+inc_a1bae0dbcd88,evt_0104d36c2eda,AWS Keys,critical,resolved,2025-03-05 07:06:05,2025-03-06 14:06:05
+inc_4c3b20c7a5b1,evt_ab056a7f827f,Private Key,low,resolved,2024-07-07 21:43:25,2024-07-29 03:43:25
+inc_c8ca4baf8d5d,evt_4af5475f50fb,JWT Secret,low,open,2025-05-13 13:15:23,
+inc_73edcb5dfb13,evt_62ffab70cf43,Private Key,medium,resolved,2025-03-31 22:33:39,2025-04-06 18:33:39
+inc_467d7d940611,evt_b759ce09d4e0,Private Key,high,resolved,2025-01-14 06:52:33,2025-01-16 09:52:33
+inc_4e5a36252e5d,evt_5daa36fae74e,AWS Keys,medium,open,2024-09-29 18:36:48,
+inc_e2defab2b192,evt_a27e6ff59b91,Private Key,medium,resolved,2025-01-13 02:41:51,2025-01-15 22:41:51
+inc_76705602284f,evt_2489ee5b2142,Database URI,high,open,2024-06-27 15:51:28,
+inc_58b928da6a28,evt_f2746da9a7c5,AWS Keys,low,open,2024-08-02 07:50:09,
+inc_852670a26cdc,evt_ae1a15103685,Database URI,medium,open,2024-05-22 19:45:09,
+inc_4a4f7e46a9e8,evt_3f686d4bd15e,Stripe API Key,critical,resolved,2025-02-09 21:38:22,2025-02-11 00:38:22
+inc_14ebc8954ecc,evt_d8e9270429ac,JWT Secret,high,resolved,2025-05-02 15:16:45,2025-05-07 05:16:45
+inc_e7643aad1e50,evt_c5e1c5d56cd7,JWT Secret,low,ignored,2025-01-29 01:02:03,
+inc_3ba097a192d7,evt_08eed26c195c,Slack Webhook,low,ignored,2024-09-14 03:31:39,
+inc_e697e82ba1d0,evt_1926bf2b6f46,GitHub Token,low,ignored,2025-12-11 06:25:16,
+inc_ab73f321a066,evt_25f415c0bd77,GitHub Token,medium,resolved,2025-09-15 03:17:58,2025-10-10 09:17:58
+inc_5ab4f093678a,evt_8df09a7d2c32,AWS Keys,medium,resolved,2025-04-23 13:06:03,2025-05-23 08:06:03
+inc_3443de799019,evt_a27e6ff59b91,AWS Keys,low,open,2024-12-27 05:59:01,
+inc_90f78ad20fc0,evt_cd081d30a002,Stripe API Key,high,resolved,2024-11-09 08:14:21,2024-11-10 11:14:21
+inc_ce2f950cbc8d,evt_81ecd9e7a0b6,Google API Key,high,resolved,2025-06-17 01:17:04,2025-06-23 22:17:04
+inc_585bce9203f4,evt_c3d6068f9517,JWT Secret,low,open,2024-09-26 17:56:07,
+inc_97e1371e7105,evt_8f10d7006ee9,Twilio Auth Token,medium,open,2024-05-05 05:50:53,
+inc_799c5396074e,evt_612e796e75c8,AWS Keys,low,ignored,2024-09-14 20:25:05,
+inc_cc834e650e66,evt_0ed28eca4340,Private Key,medium,open,2025-01-04 02:42:32,
+inc_99a815e41e46,evt_9dbda98e60d8,AWS Keys,medium,ignored,2025-07-29 07:00:42,
+inc_70f57af3694e,evt_92d13799a912,Private Key,low,open,2025-02-18 11:57:33,
+inc_e1497e001039,evt_f0b84361b5ac,AWS Keys,medium,open,2025-08-23 19:52:23,
+inc_74030f891ae3,evt_26295228a7b0,Stripe API Key,critical,resolved,2024-06-06 17:49:12,2024-06-08 09:49:12
+inc_1d440a656666,evt_827996085a9c,Google API Key,low,ignored,2024-12-05 07:49:00,
+inc_9c1aa3ee4cb9,evt_1aa51bc970a5,Google API Key,high,resolved,2024-01-07 11:02:31,2024-01-12 20:02:31
+inc_5ad4d875d5dc,evt_dd3ef7589d3a,Generic Password,medium,open,2025-12-08 20:31:58,
+inc_c876e3b242fc,evt_3c4d29fe612a,Private Key,high,open,2025-07-28 15:10:25,
+inc_d586e989caf3,evt_3c6e4c4dfc5a,Database URI,low,open,2024-11-11 05:26:49,
+inc_5d0fcc971f60,evt_d4af86734f3e,Slack Webhook,medium,ignored,2025-01-09 17:51:03,
+inc_fc7fc6b5e22a,evt_84d22090b678,GitHub Token,medium,open,2025-09-23 06:42:14,
+inc_4f1c1bd146b2,evt_f05acd45e424,Stripe API Key,high,ignored,2024-02-13 20:11:35,
+inc_bb445481d4ed,evt_eb334f8e8d9f,Generic Password,medium,ignored,2025-07-17 00:04:06,
+inc_54a85b34eed9,evt_f0b84361b5ac,JWT Secret,medium,ignored,2024-06-29 19:00:01,
+inc_f369a2374a98,evt_181668325c94,Generic Password,medium,resolved,2025-12-24 18:50:30,2026-01-05 17:50:30
+inc_d76500a8eaad,evt_e3f7043c88a9,Twilio Auth Token,low,open,2025-10-28 14:21:52,
+inc_471cb665427f,evt_116233eeac1f,Database URI,critical,resolved,2025-04-30 12:32:23,2025-05-02 03:32:23
+inc_5969ab94b01a,evt_defdcedbb71b,Private Key,low,open,2025-01-04 20:10:03,
+inc_1685fc5c2f61,evt_e3f7043c88a9,Stripe API Key,low,ignored,2025-12-27 15:12:32,
+inc_05078888217c,evt_298e9001e3f4,Twilio Auth Token,low,ignored,2024-11-16 08:10:38,
+inc_d61f1f5e36f4,evt_ae1a15103685,JWT Secret,high,resolved,2025-09-21 06:57:37,2025-09-22 15:57:37
+inc_b8f2ba4bda31,evt_5c952a819d64,Stripe API Key,low,open,2024-02-16 12:31:30,
+inc_c2f2a29c7656,evt_08f3656d50f0,Slack Webhook,low,open,2025-04-09 16:58:39,
+inc_756131fccac2,evt_5e3a2976505a,Google API Key,critical,resolved,2024-02-25 10:42:25,2024-02-26 21:42:25
+inc_2ea42690b603,evt_ab5e403669dd,Google API Key,low,open,2025-07-01 08:38:58,
+inc_6077bb2aa43b,evt_0104d36c2eda,Private Key,high,resolved,2025-11-16 16:48:27,2025-11-22 03:48:27
+inc_ded4f902cc37,evt_b2992385a7c0,GitHub Token,high,resolved,2024-02-04 04:55:33,2024-02-04 11:55:33
+inc_35c7c0fee99f,evt_f5a4c6a9d3e5,SendGrid Key,high,ignored,2025-11-30 04:06:38,
+inc_f9f35ba33b80,evt_1b3af1793412,Twilio Auth Token,medium,open,2025-03-04 11:22:52,
+inc_5adef5462248,evt_ab5e403669dd,AWS Keys,low,open,2025-08-14 08:31:38,
+inc_dce72ae1b66a,evt_91798d6a5496,Generic Password,medium,ignored,2024-03-31 03:41:21,
+inc_7653b61ea46c,evt_26295228a7b0,GitHub Token,high,open,2024-10-16 22:55:46,
+inc_93b0b65731a2,evt_85a77c9648b9,SendGrid Key,medium,resolved,2024-11-29 05:36:50,2024-12-20 13:36:50
+inc_bdb154a29d24,evt_600417a85409,Private Key,medium,ignored,2025-02-08 08:48:16,
+inc_4e2b4ee6deba,evt_4ec7e45bb560,AWS Keys,critical,open,2024-10-16 19:06:51,
+inc_ee1d686847ab,evt_f6fdd705c9f2,Database URI,medium,open,2024-12-09 02:11:39,
+inc_06b2663ecc1a,evt_eb334f8e8d9f,GitHub Token,low,ignored,2024-10-25 21:09:09,
+inc_27b9961245a9,evt_3c4d29fe612a,GitHub Token,low,resolved,2025-04-11 05:23:09,2025-05-20 08:23:09
+inc_95c32f79e658,evt_8df09a7d2c32,AWS Keys,low,open,2024-09-01 23:47:50,
+inc_2527c114a3fa,evt_1150e09cdc8b,Google API Key,medium,open,2024-01-28 07:20:10,
+inc_7b654f8282a4,evt_9334cfadfd6d,Google API Key,high,resolved,2025-11-19 12:22:50,2025-11-25 03:22:50
+inc_b15dc987ffdb,evt_3f686d4bd15e,Private Key,medium,open,2024-05-24 06:24:15,
+inc_ec8256145c5a,evt_b759ce09d4e0,SendGrid Key,low,resolved,2025-08-16 01:57:39,2025-08-25 13:57:39
+inc_5bdbd3ad75ed,evt_e402166fe2d7,SendGrid Key,critical,resolved,2025-12-16 09:23:48,2025-12-18 01:23:48
+inc_14fd7feaaa6b,evt_8f89db5dfabd,JWT Secret,low,open,2025-01-16 20:58:56,
+inc_04c4714ae769,evt_7509b8c781a4,Twilio Auth Token,medium,ignored,2024-09-04 13:38:27,
+inc_84a87e0375de,evt_4921a6918021,Generic Password,high,resolved,2024-01-07 04:33:22,2024-01-11 06:33:22
+inc_65a79f3932dd,evt_196e946daea7,SendGrid Key,high,ignored,2024-12-21 06:19:40,
+inc_8685b53be949,evt_1b510043f86a,Stripe API Key,critical,resolved,2025-12-14 22:42:32,2025-12-15 04:42:32
+inc_dc80ad775bc8,evt_e484df7d9b99,GitHub Token,critical,resolved,2024-02-19 12:34:15,2024-02-20 23:34:15
+inc_9dbf5433274d,evt_578cc1fe61cb,SendGrid Key,low,open,2024-12-26 22:39:25,
+inc_861c095e1089,evt_28ab481eb1fe,JWT Secret,low,open,2025-10-27 07:58:49,
+inc_4dc94b17a61d,evt_7509b8c781a4,AWS Keys,medium,open,2025-06-11 20:23:54,
+inc_8058bbb86534,evt_122d3e8c65f8,Twilio Auth Token,high,resolved,2025-08-10 13:22:42,2025-08-16 23:22:42
+inc_37bbe549c53d,evt_08f3656d50f0,Twilio Auth Token,critical,ignored,2025-05-17 19:52:49,
+inc_b134ec1bf4ac,evt_cc20592c9c17,GitHub Token,low,ignored,2025-05-05 14:22:16,
+inc_6dad3849c8a1,evt_4e6507396ccb,Database URI,medium,resolved,2025-09-06 10:44:16,2025-09-13 09:44:16
+inc_142e8246d9a9,evt_9578a7978ecd,Stripe API Key,high,open,2025-04-21 04:42:53,
+inc_6ae33c53bb41,evt_f89eb0718039,Stripe API Key,medium,open,2024-03-10 14:36:58,
+inc_c37a609193b8,evt_eb334f8e8d9f,Private Key,low,open,2025-10-30 14:44:09,
+inc_e119fa6e5a38,evt_b3f384bece00,GitHub Token,medium,open,2024-08-10 05:09:26,
+inc_3725ab74357c,evt_4d8674b90046,GitHub Token,medium,resolved,2024-09-13 11:50:08,2024-09-19 07:50:08
+inc_fa1855e36881,evt_28480e11b304,Private Key,low,resolved,2024-01-14 21:58:50,2024-03-14 14:58:50
+inc_1840c3fb35f8,evt_177c10f69c87,GitHub Token,low,ignored,2024-01-08 12:18:18,
+inc_71c22fbe5de8,evt_d51a0a716449,Generic Password,medium,resolved,2025-01-13 15:32:31,2025-02-02 16:32:31
+inc_320b91428cf5,evt_33c050d41444,JWT Secret,medium,ignored,2025-08-23 02:33:18,
+inc_4997ec7fa814,evt_e9c2b25c2e07,Twilio Auth Token,low,ignored,2024-09-17 05:10:35,
+inc_beb3b1c8f48f,evt_60c1c89d0cfd,SendGrid Key,high,ignored,2024-11-24 23:45:34,
+inc_7ac59a0e69af,evt_5133f31022e2,Slack Webhook,medium,resolved,2025-02-22 05:12:59,2025-03-02 15:12:59
+inc_c5ec1d9a742d,evt_f6fdd705c9f2,Twilio Auth Token,medium,open,2025-08-29 01:54:52,
+inc_0c62cfa74eca,evt_0cdaf5075093,Stripe API Key,medium,resolved,2025-12-06 23:33:20,2025-12-22 18:33:20
+inc_ca27573526c6,evt_785334ffcce1,Slack Webhook,high,resolved,2025-03-16 15:06:04,2025-03-17 08:06:04
+inc_667256908bfb,evt_95965b786139,SendGrid Key,critical,open,2025-01-05 14:33:26,
+inc_898e2310c634,evt_8df09a7d2c32,Twilio Auth Token,low,resolved,2025-10-13 17:22:13,2025-10-22 01:22:13
+inc_4fd9aa006b01,evt_711e9294cd65,SendGrid Key,low,ignored,2025-07-01 04:55:06,
+inc_f0752691b856,evt_6f0277c39553,JWT Secret,critical,resolved,2025-08-20 05:02:27,2025-08-20 11:02:27
+inc_f8cdae69b069,evt_859b4d3e9e38,AWS Keys,critical,resolved,2024-01-10 14:24:39,2024-01-12 12:24:39
+inc_0c67bd66561c,evt_d8e9270429ac,Slack Webhook,medium,ignored,2025-07-10 17:53:42,
+inc_798d52212304,evt_d4af86734f3e,Stripe API Key,medium,ignored,2024-08-21 14:07:59,
+inc_9903580f90eb,evt_03dba4589b4d,Generic Password,critical,ignored,2025-11-27 22:39:02,
+inc_10ba80997011,evt_5e3a2976505a,Stripe API Key,medium,resolved,2024-08-13 18:09:30,2024-09-12 09:09:30
+inc_f8c9d57fb23f,evt_f5a4c6a9d3e5,Private Key,low,open,2025-07-27 15:23:13,
+inc_3f59d54b66e3,evt_1eda09c8039b,SendGrid Key,medium,resolved,2025-05-08 21:07:27,2025-06-02 22:07:27
+inc_cfb833089b93,evt_705524db913a,Slack Webhook,high,ignored,2025-11-24 11:50:21,
+inc_1ba896a5540f,evt_9edd49abcc02,Twilio Auth Token,medium,open,2024-08-22 09:18:36,
+inc_2b37a3919a33,evt_14f1e4b3c745,SendGrid Key,medium,resolved,2024-10-18 07:03:49,2024-11-16 05:03:49
+inc_60f0073eafec,evt_7d0d7250acf5,Slack Webhook,high,resolved,2025-06-19 06:22:52,2025-06-23 03:22:52
+inc_e62b242ce2c2,evt_cc0c4256b458,JWT Secret,high,resolved,2025-01-15 04:38:33,2025-01-20 23:38:33
+inc_9ab6dced59b1,evt_3e0697d772b4,Google API Key,low,ignored,2025-02-05 13:42:30,
+inc_23c53767b68d,evt_2e2b20e87bc0,GitHub Token,low,open,2024-04-05 15:49:01,
+inc_5cdcbeed64a0,evt_ea4867414624,Twilio Auth Token,low,ignored,2025-11-23 15:39:48,
+inc_53b4652aa06d,evt_bc648ed67ed1,Twilio Auth Token,low,ignored,2024-05-03 04:43:53,
+inc_43f2b86c7371,evt_4f020e4bf596,Private Key,critical,resolved,2025-10-13 10:01:43,2025-10-13 15:01:43
+inc_00dc9381717c,evt_7c7a9161f7cf,GitHub Token,medium,resolved,2024-08-07 14:02:10,2024-08-13 10:02:10
+inc_3e7f4cf72e79,evt_7ecb8e88bd62,SendGrid Key,low,ignored,2024-11-06 09:24:52,
+inc_1e6e18483374,evt_0525d66698c6,Database URI,low,open,2025-05-24 15:59:34,
+inc_0b5d640d928c,evt_dadea83052c3,Generic Password,high,resolved,2024-05-26 12:37:33,2024-05-30 20:37:33
+inc_169fe269b505,evt_5d544038d8ba,Generic Password,low,open,2024-05-12 02:59:26,
+inc_574523d2faf2,evt_4c851261586f,SendGrid Key,medium,open,2025-08-20 06:20:32,

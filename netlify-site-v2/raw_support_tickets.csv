@@ -1,0 +1,202 @@
+ticket_id,customer_id,category,priority,status,created_at,resolved_at,satisfaction_score
+ticket_562e3f5902,cust_005,feature_request,medium,open,2025-03-29 21:02:59,,
+ticket_536ca2ebc3,cust_030,feature_request,medium,closed,2025-02-21 01:46:49,2025-02-26 22:46:49,4
+ticket_f502daf517,cust_016,performance,low,closed,2025-01-21 19:29:54,2025-02-02 03:29:54,4
+ticket_f81e301b64,cust_018,onboarding,high,resolved,2025-03-09 18:09:12,2025-03-12 11:09:12,
+ticket_4db1a60d07,cust_017,onboarding,low,resolved,2025-03-04 12:07:35,2025-03-21 10:07:35,3
+ticket_e099ba4391,cust_012,feature_request,high,resolved,2025-01-10 10:58:06,2025-01-12 15:58:06,
+ticket_390c4778d0,cust_011,billing,medium,resolved,2025-01-27 23:43:01,2025-01-31 17:43:01,4
+ticket_ef3cd3572e,cust_002,feature_request,medium,resolved,2025-02-27 23:49:54,2025-03-08 09:49:54,
+ticket_fd290149de,cust_014,onboarding,high,resolved,2025-03-11 00:52:50,2025-03-11 10:52:50,
+ticket_cbe53b9613,cust_019,feature_request,high,open,2025-03-24 08:47:02,,
+ticket_22561c47cf,cust_015,onboarding,medium,open,2025-01-08 22:40:40,,
+ticket_98650f4cf1,cust_026,performance,medium,in_progress,2025-03-15 15:54:09,,
+ticket_ca5306e2ba,cust_027,integration,low,open,2025-03-12 13:04:14,,
+ticket_99f3e67c8a,cust_005,billing,high,resolved,2025-03-07 01:18:49,2025-03-06 20:18:49,
+ticket_e5ff2b161a,cust_018,integration,medium,closed,2025-01-29 19:42:45,2025-01-31 02:42:45,
+ticket_c6538870a0,cust_021,bug,critical,open,2025-02-23 16:21:41,,
+ticket_c804796ac2,cust_024,billing,critical,closed,2025-01-01 07:04:20,2025-01-01 09:04:20,1
+ticket_b32e18543f,cust_004,feature_request,low,resolved,2025-01-06 16:58:15,2025-01-09 01:58:15,5
+ticket_b28e4f050e,cust_008,performance,low,resolved,2025-02-04 07:04:57,2025-02-18 21:04:57,5
+ticket_b94b26d860,cust_003,bug,medium,resolved,2025-02-22 02:48:14,2025-02-23 23:48:14,5
+ticket_6780596eb4,cust_021,integration,medium,open,2025-02-06 00:42:32,,
+ticket_7921e35bbf,cust_008,billing,low,closed,2025-02-12 08:49:55,2025-02-14 23:49:55,2
+ticket_9138958ad7,cust_028,billing,high,closed,2025-02-13 13:18:18,2025-02-14 11:18:18,
+ticket_9a802c8a63,cust_021,integration,medium,closed,2025-01-30 01:54:36,2025-02-07 18:54:36,4
+ticket_65f8e45f57,cust_002,onboarding,low,resolved,2025-01-29 22:13:30,2025-02-10 11:13:30,3
+ticket_573e49f088,cust_011,bug,medium,resolved,2025-02-15 18:13:12,2025-02-18 11:13:12,5
+ticket_c9b59da2e2,cust_010,integration,high,resolved,2025-01-04 19:58:56,2025-01-06 16:58:56,
+ticket_0692997f51,cust_001,performance,low,closed,2025-03-02 05:00:40,2025-03-15 18:00:40,1
+ticket_f7c08264bb,cust_010,bug,low,in_progress,2025-03-08 15:59:08,,
+ticket_17cf3c0e9f,cust_004,onboarding,high,open,2025-03-27 15:42:59,,
+ticket_757c3c6092,cust_010,integration,low,closed,2025-02-19 00:59:29,2025-02-26 09:59:29,4
+ticket_b82135965b,cust_009,bug,medium,closed,2025-01-13 03:35:38,2025-01-20 04:35:38,
+ticket_3eb6450291,cust_008,performance,low,closed,2025-02-07 02:08:28,2025-02-26 00:08:28,
+ticket_9292506a0c,cust_009,bug,low,closed,2025-01-16 14:23:52,2025-01-25 18:23:52,
+ticket_eb1d9ee4b9,cust_024,feature_request,low,resolved,2025-02-22 07:29:27,2025-03-07 00:29:27,5
+ticket_b5cd80fa23,cust_009,feature_request,critical,open,2025-03-13 05:28:10,,
+ticket_40c303fa1c,cust_018,feature_request,low,closed,2025-02-12 17:04:26,2025-03-03 05:04:26,3
+ticket_f2804461a3,cust_008,billing,high,in_progress,2025-03-28 05:52:25,,
+ticket_ef9e50b444,cust_009,performance,low,closed,2025-02-27 10:43:03,2025-03-02 05:43:03,
+ticket_4cc841f61b,cust_019,onboarding,medium,open,2025-02-19 03:36:20,,0
+ticket_44076ef3a6,cust_011,bug,medium,open,2025-03-03 03:02:36,,
+ticket_f4019df5b4,cust_013,feature_request,high,closed,2025-01-24 10:56:05,2025-01-25 21:56:05,3
+ticket_4cbae3f693,cust_012,performance,low,resolved,2025-01-24 09:13:34,2025-01-26 23:13:34,2
+ticket_25e53b8122,cust_024,bug,medium,resolved,2025-02-26 04:40:18,2025-03-07 15:40:18,4
+ticket_5e0351bb9b,cust_008,feature_request,medium,closed,2025-02-18 11:46:21,2025-02-20 22:46:21,5
+ticket_781153b8b7,cust_002,billing,low,resolved,2025-03-22 09:23:22,2025-04-01 10:23:22,
+ticket_70a7b98448,cust_016,feature_request,low,open,2025-03-28 23:05:42,,
+ticket_3000e9eb67,cust_015,performance,critical,resolved,2025-02-10 06:56:51,2025-02-10 11:56:51,
+ticket_68770160ef,cust_027,onboarding,low,open,2025-03-24 04:14:17,,
+ticket_1eddce05b5,cust_014,feature_request,urgent,resolved,2025-02-21 01:18:33,2025-03-12 10:18:33,
+ticket_807f8314da,cust_017,onboarding,low,resolved,2025-02-11 23:23:57,2025-02-17 22:23:57,
+ticket_59013c3ac1,cust_020,performance,high,open,2025-03-28 00:59:51,,
+ticket_13bb3f876b,cust_024,integration,low,resolved,2025-02-19 12:09:34,2025-03-03 04:09:34,5
+ticket_e48b7608af,cust_001,bug,high,closed,2025-02-11 21:31:36,2025-02-13 02:31:36,
+ticket_c0c05eb8e4,cust_012,feature_request,low,resolved,2025-02-17 00:07:40,2025-03-01 23:07:40,5
+ticket_52862e81b1,cust_021,onboarding,low,resolved,2025-02-07 16:10:12,2025-02-15 08:10:12,5
+ticket_8c04d241d8,cust_004,bug,medium,resolved,2025-01-24 04:18:20,2025-01-26 02:18:20,2
+ticket_6fcafbf286,cust_012,bug,low,resolved,2025-01-28 18:02:42,2025-02-13 07:02:42,4
+ticket_ac9d46d537,cust_016,performance,low,resolved,2025-02-05 07:00:25,2025-02-22 22:00:25,4
+ticket_36f45b5390,cust_020,bug,medium,resolved,2025-03-21 14:22:32,2025-03-29 19:22:32,
+ticket_3a2f385be1,cust_012,feature_request,medium,resolved,2025-02-02 17:21:40,2025-02-06 18:21:40,4
+ticket_83491d8ef4,cust_003,bug,high,resolved,2025-01-25 17:34:35,2025-01-28 14:34:35,3
+ticket_752b8370be,cust_006,performance,low,resolved,2025-02-13 02:03:53,2025-02-21 06:03:53,3
+ticket_aa118e7a30,cust_004,feature_request,medium,resolved,2025-02-13 14:17:21,2025-02-16 13:17:21,2
+ticket_d818a0a121,cust_002,feature_request,medium,closed,2025-02-12 17:42:37,2025-02-22 08:42:37,
+ticket_9b2f33740c,cust_018,onboarding,medium,open,2025-03-20 11:31:05,,
+ticket_ac0f6367ef,cust_013,onboarding,medium,resolved,2025-01-13 22:29:05,2025-01-19 11:29:05,2
+ticket_6adbfaecbd,cust_008,bug,medium,in_progress,2025-03-24 12:50:20,,
+ticket_bbc4ac2454,cust_008,billing,high,resolved,2025-03-27 22:12:13,2025-03-29 04:12:13,2
+ticket_01d5ad54e3,cust_023,performance,low,resolved,2025-02-15 02:44:37,2025-02-26 04:44:37,5
+ticket_50828ae546,cust_004,feature_request,high,closed,2025-01-04 04:13:21,2025-01-06 20:13:21,
+ticket_4f3fa0e225,cust_001,performance,low,in_progress,2025-03-27 03:35:45,,
+ticket_c321b4cccb,cust_027,integration,medium,resolved,2025-02-02 04:24:39,2025-02-03 13:24:39,2
+ticket_6568bd7819,cust_020,integration,low,in_progress,2025-03-23 12:07:13,,
+ticket_bdfafbbbba,cust_003,performance,critical,closed,2025-01-01 20:58:44,2025-01-01 21:58:44,3
+ticket_a8a4f20080,cust_004,billing,low,open,2025-02-27 06:40:02,,
+ticket_81a99bc637,cust_012,integration,high,resolved,2025-01-09 07:40:24,2025-01-10 21:40:24,4
+ticket_d4add7201c,cust_006,performance,critical,resolved,2025-01-20 17:56:17,2025-01-20 20:56:17,1
+ticket_06f9d2595d,cust_007,billing,critical,closed,2025-02-26 23:42:28,2025-02-27 04:42:28,
+ticket_4a8fd6deab,cust_001,billing,high,resolved,2025-01-25 11:37:44,2025-01-26 03:37:44,
+ticket_a0e966aadb,cust_002,onboarding,critical,resolved,2025-03-17 22:38:30,2025-03-18 01:38:30,3
+ticket_14db84f2e8,cust_006,performance,low,open,2025-02-07 15:58:39,,
+ticket_f85a21dda9,cust_008,bug,low,resolved,2025-02-10 16:27:28,2025-02-25 06:27:28,4
+ticket_00710b34d4,cust_009,onboarding,medium,open,2025-03-01 13:45:38,,
+ticket_49fcaa1cb6,cust_005,integration,medium,in_progress,2025-03-28 06:46:09,,
+ticket_64516d4850,cust_015,integration,medium,resolved,2025-01-31 20:29:49,2025-02-01 10:29:49,5
+ticket_6b80f2276d,cust_023,billing,medium,resolved,2025-03-16 22:22:39,2025-03-17 20:22:39,
+ticket_21591b1793,cust_028,bug,medium,closed,2025-02-24 19:49:32,2025-03-03 16:49:32,3
+ticket_c009354b03,cust_008,billing,high,open,2025-03-29 09:44:53,,
+ticket_2e8825239e,cust_020,feature_request,high,resolved,2025-02-16 11:52:29,2025-02-16 15:52:29,3
+ticket_e632d84c72,cust_022,performance,medium,resolved,2025-01-05 04:33:22,2025-01-10 02:33:22,1
+ticket_a3a850979f,cust_017,integration,low,open,2025-03-24 02:44:03,,
+ticket_16ee3033e7,cust_001,performance,low,resolved,2025-03-13 07:34:09,2025-03-29 04:34:09,
+ticket_1cfeb6e311,cust_007,feature_request,low,resolved,2025-02-28 23:21:05,2025-03-06 07:21:05,
+ticket_4a38f88510,cust_020,feature_request,medium,resolved,2025-01-29 02:59:17,2025-02-02 11:59:17,-1
+ticket_f90027e544,cust_021,integration,high,resolved,2025-02-15 12:35:51,2025-02-17 09:35:51,4
+ticket_5e20d66621,cust_001,performance,low,open,2025-02-07 21:48:02,,
+ticket_4220191805,cust_011,integration,high,closed,2025-01-17 04:49:04,2025-01-18 19:49:04,5
+ticket_3d51fdac6e,cust_016,integration,low,resolved,2025-02-21 18:31:57,2025-03-02 13:31:57,4
+ticket_83f90449c8,cust_015,bug,low,in_progress,2025-03-19 03:46:02,,
+ticket_8350fbd799,cust_014,integration,critical,open,2025-02-10 03:34:32,,
+ticket_315a774ebe,cust_012,integration,medium,closed,2025-02-09 22:30:43,2025-02-15 08:30:43,
+ticket_fa2e961da8,cust_006,bug,high,resolved,2025-02-13 19:08:18,2025-02-16 10:08:18,
+ticket_3365fbec65,cust_015,performance,low,resolved,2025-03-21 05:53:50,2025-04-05 12:53:50,4
+ticket_d2df9eb7da,cust_020,onboarding,low,open,2025-01-18 17:42:04,,
+ticket_922cac10f9,cust_022,onboarding,medium,in_progress,2025-03-27 02:55:52,,
+ticket_1f458ebe3f,cust_028,performance,low,closed,2025-02-20 00:46:19,2025-02-21 21:46:19,4
+ticket_7d54fb9221,cust_029,integration,low,resolved,2025-03-10 07:59:09,2025-03-20 12:59:09,5
+ticket_2ee4f4ec08,cust_008,integration,low,resolved,2025-03-03 10:01:19,2025-03-07 12:01:19,
+ticket_689289ef44,cust_026,billing,critical,closed,2025-01-13 09:08:12,2025-01-13 15:08:12,5
+ticket_0a7c943d1d,cust_016,performance,medium,resolved,2025-01-27 23:42:19,2025-02-04 06:42:19,5
+ticket_9292dde044,cust_024,performance,high,closed,2025-01-21 09:38:16,2025-01-22 15:38:16,
+ticket_6384370c61,cust_022,onboarding,low,in_progress,2025-03-13 17:38:09,,
+ticket_879679a232,cust_006,onboarding,medium,open,2025-03-26 11:38:29,,
+ticket_f533b861e2,cust_010,bug,low,resolved,2025-01-16 11:41:34,2025-01-22 23:41:34,
+ticket_43fc49e755,cust_009,performance,medium,resolved,2025-01-20 12:43:25,2025-01-29 19:43:25,4
+ticket_a74121490a,cust_010,bug,critical,in_progress,2025-03-21 15:17:46,,
+ticket_7c74658ad7,cust_001,billing,critical,resolved,2025-02-13 11:22:37,2025-02-14 07:22:37,3
+ticket_a9f078efb5,cust_017,performance,medium,resolved,2025-02-05 12:48:35,2025-02-08 00:48:35,4
+ticket_26aa5c47d9,cust_019,integration,medium,open,2025-01-20 13:13:57,,
+ticket_1966ee4e85,cust_011,performance,medium,open,2025-01-20 12:48:08,,
+ticket_0086d7e68a,cust_008,bug,low,resolved,2025-02-21 23:42:03,2025-02-26 12:42:03,5
+ticket_5e9547d4ad,cust_002,onboarding,high,open,2025-02-06 21:22:02,,6
+ticket_94ae212f35,cust_008,feature_request,high,resolved,2025-01-23 14:24:54,2025-01-26 08:24:54,4
+ticket_3ef03b8ed7,cust_025,performance,high,open,2025-03-11 00:32:36,,
+ticket_e1fa76bf88,cust_014,feature_request,medium,resolved,2025-01-10 21:29:13,2025-01-19 10:29:13,
+ticket_d8eb60b1fa,cust_011,integration,medium,resolved,2025-02-13 12:54:10,2025-02-18 06:54:10,4
+ticket_f2fda51c01,cust_008,onboarding,medium,open,2025-01-14 00:40:09,,
+ticket_91728e2797,cust_010,performance,low,resolved,2025-03-03 10:12:15,2025-03-21 05:12:15,1
+ticket_f5dfc1fa86,cust_004,performance,medium,resolved,2025-02-01 05:30:19,2025-02-05 02:30:19,
+ticket_a80029132a,cust_023,integration,medium,closed,2025-01-31 16:45:02,2025-02-06 19:45:02,5
+ticket_0d5665d98e,cust_021,billing,critical,open,2025-03-01 11:07:18,,
+ticket_b9705642b7,cust_029,,low,closed,2025-01-11 14:01:44,2025-01-21 05:01:44,5
+ticket_b888be0dbf,cust_020,integration,low,resolved,2025-01-24 09:48:29,2025-02-06 10:48:29,1
+ticket_086dfa95a9,cust_025,onboarding,high,resolved,2025-03-21 12:35:12,2025-03-23 02:35:12,4
+ticket_70b63b6822,cust_025,integration,medium,in_progress,2025-03-30 21:57:28,,
+ticket_263886eda8,cust_011,feature_request,critical,resolved,2025-03-01 04:41:36,2025-03-01 14:41:36,2
+ticket_e8f8d6ac28,cust_011,feature_request,high,open,2025-02-05 16:32:07,,
+ticket_dd65b0dbcb,cust_010,integration,high,closed,2025-02-15 08:54:20,2025-02-16 15:54:20,5
+ticket_eec2463a61,cust_026,bug,medium,open,2025-01-05 15:56:03,,
+ticket_c0fe598656,cust_003,onboarding,medium,closed,2025-03-15 05:49:11,2025-03-19 16:49:11,5
+ticket_a47081d4fe,cust_008,integration,high,resolved,2025-02-17 00:45:30,2025-02-18 23:45:30,
+ticket_d75f45cef2,cust_025,feature_request,low,resolved,2025-02-07 15:46:12,2025-02-18 02:46:12,
+ticket_0fc6dcb0c4,cust_006,onboarding,low,closed,2025-01-25 02:41:36,2025-02-05 16:41:36,3
+ticket_d6ab984b16,cust_001,onboarding,high,closed,2025-01-01 19:01:59,2025-01-04 12:01:59,
+ticket_d81b2b615b,cust_008,bug,medium,open,2025-02-09 01:01:36,,
+ticket_f044399ae4,cust_018,feature_request,low,resolved,2025-03-10 13:08:30,2025-03-16 17:08:30,4
+ticket_f3dbb95ee4,cust_024,billing,medium,closed,2025-01-12 14:55:39,2025-01-13 16:55:39,3
+ticket_1ecec8d8cd,cust_008,feature_request,medium,open,2025-02-20 11:05:58,,
+ticket_2695a6b3df,cust_017,billing,high,open,2025-03-18 07:06:15,,
+ticket_2c2cec40ec,cust_027,billing,low,resolved,2025-03-26 15:33:21,2025-04-01 01:33:21,5
+ticket_4961e2029e,cust_017,bug,high,in_progress,2025-03-30 10:27:35,,
+ticket_3271bd85f9,cust_027,billing,medium,in_progress,2025-03-01 03:07:09,,
+ticket_2afc740c2f,cust_027,feature_request,high,in_progress,2025-03-13 18:45:10,,
+ticket_c51b2141f9,cust_016,feature_request,high,resolved,2025-01-16 20:05:54,2025-01-18 21:05:54,4
+ticket_d5ab254e17,cust_015,onboarding,high,closed,2025-01-25 06:24:47,2025-01-26 07:24:47,4
+ticket_e4815bc69b,cust_027,bug,low,closed,2025-01-04 22:37:01,2025-01-21 09:37:01,2
+ticket_0bbdda6fdf,cust_002,feature_request,medium,resolved,2025-03-02 18:04:30,2025-03-01 08:04:30,
+ticket_87a82daad1,cust_021,billing,low,closed,2025-03-12 16:55:30,2025-03-18 16:55:30,4
+ticket_fea1b97d47,cust_027,performance,low,resolved,2025-01-27 21:19:49,2025-02-05 03:19:49,4
+ticket_15942c6a06,cust_009,bug,high,resolved,2025-03-08 16:33:26,2025-03-10 12:33:26,4
+ticket_eb9e536018,cust_007,feature_request,low,resolved,2025-02-25 20:59:05,2025-03-07 02:59:05,3
+ticket_39eaebbbb4,cust_020,feature_request,low,closed,2025-02-23 08:54:56,2025-03-11 18:54:56,5
+ticket_6d479f72bd,cust_005,feature_request,medium,closed,2025-01-28 17:12:03,2025-01-30 17:12:03,5
+ticket_115811fef7,cust_021,integration,medium,in_progress,2025-03-28 15:34:42,,
+ticket_0ba367d8d9,cust_010,billing,medium,open,2025-02-16 03:49:39,,
+ticket_2f6ed03e87,cust_003,onboarding,high,open,2025-03-17 01:33:42,,
+ticket_b130c4d4da,cust_007,performance,low,closed,2025-02-22 12:02:39,2025-02-25 16:02:39,2
+ticket_0c6faf5916,cust_017,onboarding,medium,closed,2025-02-26 01:41:32,2025-03-05 01:41:32,
+ticket_6256e9dc54,cust_014,onboarding,low,in_progress,2025-03-03 00:09:50,,
+ticket_33120a1253,cust_008,performance,high,resolved,2025-03-11 02:35:51,2025-03-14 00:35:51,3
+ticket_9ce5fbd17c,cust_019,billing,high,closed,2025-02-15 20:05:00,2025-02-18 00:05:00,
+ticket_5bd8bea11a,cust_026,billing,critical,open,2025-03-16 23:32:22,,
+ticket_8136d4faeb,cust_028,bug,medium,open,2025-01-04 16:26:13,,
+ticket_71ff02e95a,cust_028,feature_request,high,in_progress,2025-03-26 02:17:38,,
+ticket_5b51123ee4,cust_003,integration,high,closed,2025-02-16 12:18:37,2025-02-18 10:18:37,3
+ticket_7164b00d89,cust_027,feature_request,low,resolved,2025-01-22 04:33:53,2025-02-10 20:33:53,4
+ticket_92058d8545,cust_008,onboarding,medium,resolved,2025-03-10 09:35:44,2025-03-13 15:35:44,4
+ticket_7ed115aa30,cust_002,performance,medium,closed,2025-02-23 22:35:35,2025-02-26 01:35:35,5
+ticket_f6e80a6cd8,cust_019,performance,high,resolved,2025-01-15 14:52:47,2025-01-16 19:52:47,2
+ticket_23f93e15ee,cust_028,feature_request,medium,in_progress,2025-03-27 11:34:13,,
+ticket_c4cfa8e9c4,cust_017,billing,low,resolved,2025-01-19 00:13:59,2025-02-02 10:13:59,4
+ticket_03661014bb,cust_009,feature_request,low,open,2025-03-24 20:51:38,,
+ticket_6beb3cba15,cust_014,bug,low,open,2025-01-15 22:27:44,,
+ticket_f5e5cf6c79,cust_016,bug,low,resolved,2025-02-06 13:19:15,2025-02-18 07:19:15,
+ticket_13e46e4173,cust_014,onboarding,medium,resolved,2025-03-06 19:44:51,2025-03-16 07:44:51,5
+ticket_292aaf58b9,cust_014,billing,low,closed,2025-02-07 06:42:00,2025-02-10 03:42:00,4
+ticket_adfcbb83df,cust_008,performance,high,closed,2025-02-20 12:56:47,2025-02-21 03:56:47,5
+ticket_4ceac473f3,cust_010,onboarding,low,closed,2025-03-22 18:48:31,2025-04-09 04:48:31,
+ticket_80f9b750da,cust_005,billing,low,closed,2025-01-11 09:28:37,2025-01-13 21:28:37,5
+ticket_a3648124aa,cust_024,integration,medium,closed,2025-03-02 16:43:39,2025-03-06 22:43:39,3
+ticket_235cdd52ca,cust_023,feature_request,medium,resolved,2025-02-25 09:46:53,2025-03-04 02:46:53,4
+ticket_80485b4f8e,cust_016,feature_request,high,open,2025-01-28 10:17:29,,
+ticket_752b8370be,cust_006,performance,low,resolved,2025-02-13 02:03:53,2025-02-21 06:03:53,3
+ticket_e387690a89,cust_020,billing,low,closed,2025-01-01 15:46:39,2025-01-05 18:46:39,
+ticket_49ee3c7c95,cust_007,integration,medium,open,2025-02-05 16:54:40,,
+ticket_7246f17a07,cust_026,feature_request,medium,closed,2025-03-05 11:39:37,2025-03-06 10:39:37,4
+ticket_3709b1254a,cust_002,performance,medium,open,2025-01-15 08:37:38,,
+ticket_502ba1db61,cust_008,feature_request,high,closed,2025-02-06 00:15:57,2025-02-08 23:15:57,
+ticket_6b4f9ee215,cust_025,onboarding,high,resolved,2025-01-28 01:59:55,2025-01-29 06:59:55,3
+ticket_2d5756ecdf,cust_026,billing,medium,resolved,2025-03-15 15:43:15,2025-03-21 15:43:15,3

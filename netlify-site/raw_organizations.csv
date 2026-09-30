@@ -1,0 +1,27 @@
+org_id,org_name,plan_type,signed_up_at,industry,employee_count
+org_022,NetGuard,free,2020-04-09 17:34:02,edtech,500
+org_006,DataVault,business,2023-07-27 09:39:54,healthtech,2500
+org_010,MediSync,team,2023-01-20 07:26:32,edtech,500
+org_006,DataVault,business,2023-07-27 09:39:54,healthtech,2500
+org_017,AppNest,business,2023-02-07 11:51:32,healthtech,500
+org_025,TrustLayer,free,2021-03-09 19:35:29,healthtech,5000
+org_004,  ShopStream ,free,2020-10-18 02:25:25,healthtech,100
+org_021,PixelCraft,free,2022-10-04 12:16:23,edtech,
+org_007,SecureStack,team,2020-01-21 04:34:57,edtech,50
+org_011,RetailIQ,business,2020-05-14 23:53:58,cybersecurity,2500
+org_003,HealthFirst,business,2020-09-27 02:37:44,devtools,1000
+org_015,PayBridge,business,2020-09-04 21:43:15,edtech,100
+org_001,Acme Corp,business,2020-03-18 16:56:13,cybersecurity,250
+org_020,TradeHub,free,2023-03-24 22:14:55,saas,5000
+org_002,NovaPay,free,2021-03-09 12:42:06,cybersecurity,25
+org_016,LogiTrack,enterprise,2023-03-27 00:15:57,saas,2500
+org_005,CodeForge,team,2020-03-23 10:39:55,devtools,100
+org_008,CloudNine,Business,2022-11-23 02:55:03,saas,50
+org_012,DevPulse,team,2023-03-22 01:34:09,fintech,5000
+org_013,CyberShield,free,2023-01-28 13:27:43,,100
+org_023,SmartGrid,team,2020-07-24 15:22:48,healthtech,500
+org_014,EduFlow,business,2020-05-22 08:54:49,cybersecurity,100
+org_019,BioGenix,business,2021-06-15 17:01:20,devtools,100
+org_024,FlowState,free,2024-03-31 01:22:51,ecommerce,2500
+org_009,FinLeap,free,2022-11-11 18:18:31,fintech,25
+org_018,  SkyLedger ,team,2022-04-09 11:18:32,cybersecurity,25

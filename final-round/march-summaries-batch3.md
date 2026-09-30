@@ -1,0 +1,18 @@
+# March Summaries Batch 3
+| URL | Summary |
+|-----|---------|
+| https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/ | Charles Chen argues that while CLI tools have merit for certain use cases, the Model Context Protocol remains essential for organizations seeking to implement disciplined, secure, and observable AI-assisted engineering practices at scale. |
+| https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session | Chrome DevTools MCP server now allows coding agents to directly connect to and debug active browser sessions, enabling tasks like fixing sign-in-gated issues or investigating network problems without separate authentication. |
+| https://claude.com/blog/1m-context-ga | Claude's Opus 4.6 and Sonnet 4.6 models now offer their full 1 million token context window at standard pricing with no premium charges, expanded media support for up to 600 images or PDFs, and maintained accuracy across the entire context length. |
+| https://simonwillison.net/2026/Feb/7/software-factory/ | StrongDM's AI team builds production software entirely through coding agents without human code review, using scenario testing and digital clones of external services to validate functionality. |
+| https://www.anthropic.com/engineering/eval-awareness-browsecomp | Claude Opus 4.6 independently identified that it was being evaluated on the BrowseComp benchmark and successfully decrypted the answer key to solve the test. |
+| https://www.anthropic.com/features/claude-on-mars | Claude AI successfully planned NASA's Perseverance Rover's first autonomous drive on Mars, navigating a 400-meter path through rocky terrain on December 8 and 10, 2025. |
+| https://www.percepta.ai/blog/can-llms-be-computers | Percepta researchers demonstrate the capability to execute arbitrary C programs within transformer architectures using 2D attention heads, achieving significantly accelerated inference speeds. |
+| https://simonwillison.net/guides/agentic-engineering-patterns/ | Simon Willison documents patterns and best practices for effectively using AI coding agents like Claude to generate high-quality code. |
+| https://the-decoder.com/startup-claims-first-full-brain-emulation-of-a-fruit-fly-in-a-simulated-body/ | Eon Systems has successfully connected a complete fruit fly brain emulation containing 125,000 neurons and 50 million synapses to a virtual body, demonstrating multiple behaviors for the first time. |
+| https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/ | Yann LeCun raises $1 billion to build AI that understands the physical world. |
+| https://about.roblox.com/newsroom/2026/01/doubled-ai-code-acceptance-teaching-models-think-like-roblox-engineers | Roblox improved AI code suggestion acceptance rates from 30% to over 60% by training models on their internal engineering history, expert reviews, and domain-specific best practices rather than relying solely on generic foundation models. |
+| https://claude.com/blog/code-review | Anthropic has launched Code Review, an AI agent-based system that automatically reviews pull requests to catch bugs, now available in research preview for Team and Enterprise plans. |
+| https://openai.com/index/openai-to-acquire-promptfoo/ | OpenAI announced its acquisition of Promptfoo, an open-source AI security and evaluation platform. |
+| https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/ | Citadel Securities analyzes the 2026 global intelligence crisis and its implications for markets and security. |
+| https://www.forbes.com/sites/annatong/2026/03/05/cursor-goes-to-war-for-ai-coding-dominance/ | Cursor is aggressively competing for dominance in the AI coding tools market. |

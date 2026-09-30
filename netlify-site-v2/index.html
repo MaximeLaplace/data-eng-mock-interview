@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitGuardian — Customer Health Dataset</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+            color: #1a1a2e;
+            background: #f8f9fa;
+        }
+        h1 { color: #0d1117; }
+        h2 { color: #333; margin-top: 2em; }
+        h3 { color: #555; }
+        a { color: #1565c0; }
+        table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+        th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; font-size: 14px; }
+        th { background: #f0f0f0; }
+        code { background: #e8e8e8; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+        .note { background: #fff3cd; padding: 12px 16px; border-radius: 6px; margin: 1em 0; border-left: 4px solid #ffc107; }
+    </style>
+</head>
+<body>
+    <h1>GitGuardian — Customer Health & Engagement Dataset</h1>
+
+    <p>
+        This dataset contains customer, product usage, and support data for a B2B SaaS platform.
+        Three CSV files are available:
+    </p>
+
+    <h2>Available Files</h2>
+
+    <table>
+        <tr>
+            <th>File</th>
+            <th>Description</th>
+            <th>Rows</th>
+        </tr>
+        <tr>
+            <td><a href="/raw_customers.csv">raw_customers.csv</a></td>
+            <td>Customer accounts and subscription info</td>
+            <td>~30</td>
+        </tr>
+        <tr>
+            <td><a href="/raw_daily_usage.csv">raw_daily_usage.csv</a></td>
+            <td>Daily product feature usage per customer</td>
+            <td>~7,000</td>
+        </tr>
+        <tr>
+            <td><a href="/raw_support_tickets.csv">raw_support_tickets.csv</a></td>
+            <td>Support tickets with priority and resolution</td>
+            <td>~200</td>
+        </tr>
+    </table>
+
+    <h2>Schema</h2>
+
+    <h3>raw_customers</h3>
+    <table>
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td>customer_id</td><td>string</td><td>Customer identifier</td></tr>
+        <tr><td>company_name</td><td>string</td><td>Company name</td></tr>
+        <tr><td>plan</td><td>string</td><td>Subscription plan</td></tr>
+        <tr><td>mrr</td><td>integer</td><td>Monthly recurring revenue ($)</td></tr>
+        <tr><td>signed_up_at</td><td>date</td><td>Signup date</td></tr>
+        <tr><td>region</td><td>string</td><td>Deployment region</td></tr>
+        <tr><td>acquisition_source</td><td>string</td><td>How the customer was acquired</td></tr>
+        <tr><td>num_seats</td><td>integer</td><td>Licensed seats</td></tr>
+        <tr><td>churned_at</td><td>date</td><td>Churn date (empty if active)</td></tr>
+    </table>
+
+    <h3>raw_daily_usage</h3>
+    <table>
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td>usage_id</td><td>string</td><td>Usage record identifier</td></tr>
+        <tr><td>customer_id</td><td>string</td><td>Customer identifier</td></tr>
+        <tr><td>date</td><td>date</td><td>Activity date</td></tr>
+        <tr><td>feature_name</td><td>string</td><td>Product feature used</td></tr>
+        <tr><td>event_count</td><td>integer</td><td>Number of times the feature was used</td></tr>
+        <tr><td>session_minutes</td><td>float</td><td>Time spent in session (minutes)</td></tr>
+    </table>
+
+    <h3>raw_support_tickets</h3>
+    <table>
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td>ticket_id</td><td>string</td><td>Ticket identifier</td></tr>
+        <tr><td>customer_id</td><td>string</td><td>Customer identifier</td></tr>
+        <tr><td>category</td><td>string</td><td>Ticket category</td></tr>
+        <tr><td>priority</td><td>string</td><td>critical / high / medium / low</td></tr>
+        <tr><td>status</td><td>string</td><td>open / in_progress / resolved / closed</td></tr>
+        <tr><td>created_at</td><td>timestamp</td><td>When the ticket was created</td></tr>
+        <tr><td>resolved_at</td><td>timestamp</td><td>When the ticket was resolved (if applicable)</td></tr>
+        <tr><td>satisfaction_score</td><td>integer</td><td>CSAT score (1-5, if provided)</td></tr>
+    </table>
+
+    <div class="note">
+        <strong>Note:</strong> This is raw data — it may contain quality issues typical of production systems.
+    </div>
+</body>
+</html>
